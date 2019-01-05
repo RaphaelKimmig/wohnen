@@ -75,6 +75,19 @@ def fetch_geo_data(city_name):
     cities[name]["names"]=[name]+list(set([city_name]+cities[name].get("names",[]))-{name})
     return (name,cities[name])
 
+def batch_add_city(citydict,save=True):
+    unloaded=[]
+    for city,data in citydict.items():
+        bn,ct = add_city(city,False)
+    if bn is None:
+        unloaded.append(city)
+    else:
+        ct={**ct,**data}
+    if save:
+        save_cities()
+        
+    return unloaded
+    
 def add_city(city_name,save=True):
     bn = get_base_name(city_name)
     if bn is None:
