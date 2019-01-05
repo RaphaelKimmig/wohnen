@@ -16,6 +16,19 @@ def load_cities():
                         row[k] =json.loads(e)
                 cities[row["names"][0]]=dict(row)
 
+def to_number(ele):
+    if isinstance(ele, int) or isinstance(ele, float):
+        return ele
+    if type(ele)==list:
+        return [to_number(e) for e in ele]
+    if ele.isdigit():
+        return int(ele)
+    try:
+        return float(ele)
+    except:
+        return ele
+    
+    
 def save_cities():
 #    keys=set(list([(c.keys()) for n,c in cities.items()]))
     keys=set()
@@ -27,6 +40,7 @@ def save_cities():
         for n,c in cities.items():
             c2 = copy.deepcopy(c)
             for k,e in c2.items():
+                e = to_number(e)
                 c2[k] = json.dumps(e)
             writer.writerow(c2)
         
