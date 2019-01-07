@@ -1,0 +1,10 @@
+main_name,names,lat,lon,wikiurl,population
+"""Essen""","[""Essen"", ""Essen""]",51.45806944,7.01476111,"""https://de.wikipedia.org/wiki/Essen""",583393
+"""Hamburg""","[""DE-HH"", ""Freie und Hansestadt Hamburg"", ""Hansestadt Hamburg"", ""HH"", ""Hamburg"", ""Hamburg""]",53.550556,9.993333,"""https://de.wikipedia.org/wiki/Hamburg""",1830584
+"""Frankfurt am Main""","[""FFM"", ""Frankfurt"", ""Frankfurt (Main)"", ""Frankfurt/Main"", ""Frankfurt am Main"", ""Frankfurt_am_Main""]",50.11055556,8.68222222,"""https://de.wikipedia.org/wiki/Frankfurt_am_Main""",746878
+"""K\u00f6ln""","[""K\u00f6lle"", ""K\u00f6ln"", ""K%C3%B6ln""]",50.93805556,6.95694444,"""https://de.wikipedia.org/wiki/K%C3%B6ln""",1080394
+"""Dortmund""","[""Dortmund"", ""Dortmund""]",51.51416667,7.46388889,"""https://de.wikipedia.org/wiki/Dortmund""",586600
+"""M\u00fcnchen""","[""Minga"", ""M\u00fcnchen, St"", ""M\u00fcnchen"", ""M%C3%BCnchen""]",48.13722222,11.57555556,"""https://de.wikipedia.org/wiki/M%C3%BCnchen""",1456039
+"""D\u00fcsseldorf""","[""D\u00fcsseldorf"", ""D%C3%BCsseldorf""]",51.22555556,6.78277778,"""https://de.wikipedia.org/wiki/D%C3%BCsseldorf""",617280
+"""Berlin""","[""Berlin, Deutschland"", ""Bundeshauptstadt Berlin"", ""DE-BE"", ""Land Berlin"", ""Stadt Berlin"", ""Berlin"", ""Berlin""]",52.51861111,13.40833333,"""https://de.wikipedia.org/wiki/Berlin""",3613495
+"""Stuttgart""","[""Stutengarten"", ""Stuttgart"", ""Stuttgart""]",48.77555556,9.18277778,"""https://de.wikipedia.org/wiki/Stuttgart""",632743

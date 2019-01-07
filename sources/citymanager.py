@@ -47,8 +47,12 @@ class City():
     def set_main_name(self,name):
         list(set(self.attr["names"] + [self.name])-{name})
         self.attr["main_name"]=name
-        
+    
+    def __str__(self):
+        return self.name+ ": " + str(self.attr)
+    
     name = property(get_main_name, set_main_name)
+    
     
 class CityDataManager():
     def __init__(self,csv=None):
