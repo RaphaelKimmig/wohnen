@@ -1,10 +1,700 @@
-main_name,names,lat,lon,wikiurl,population
-"""Essen""","[""Essen"", ""Essen""]",51.45806944,7.01476111,"""https://de.wikipedia.org/wiki/Essen""",583393
-"""Hamburg""","[""DE-HH"", ""Freie und Hansestadt Hamburg"", ""Hansestadt Hamburg"", ""HH"", ""Hamburg"", ""Hamburg""]",53.550556,9.993333,"""https://de.wikipedia.org/wiki/Hamburg""",1830584
-"""Frankfurt am Main""","[""FFM"", ""Frankfurt"", ""Frankfurt (Main)"", ""Frankfurt/Main"", ""Frankfurt am Main"", ""Frankfurt_am_Main""]",50.11055556,8.68222222,"""https://de.wikipedia.org/wiki/Frankfurt_am_Main""",746878
-"""K\u00f6ln""","[""K\u00f6lle"", ""K\u00f6ln"", ""K%C3%B6ln""]",50.93805556,6.95694444,"""https://de.wikipedia.org/wiki/K%C3%B6ln""",1080394
-"""Dortmund""","[""Dortmund"", ""Dortmund""]",51.51416667,7.46388889,"""https://de.wikipedia.org/wiki/Dortmund""",586600
-"""M\u00fcnchen""","[""Minga"", ""M\u00fcnchen, St"", ""M\u00fcnchen"", ""M%C3%BCnchen""]",48.13722222,11.57555556,"""https://de.wikipedia.org/wiki/M%C3%BCnchen""",1456039
-"""D\u00fcsseldorf""","[""D\u00fcsseldorf"", ""D%C3%BCsseldorf""]",51.22555556,6.78277778,"""https://de.wikipedia.org/wiki/D%C3%BCsseldorf""",617280
-"""Berlin""","[""Berlin, Deutschland"", ""Bundeshauptstadt Berlin"", ""DE-BE"", ""Land Berlin"", ""Stadt Berlin"", ""Berlin"", ""Berlin""]",52.51861111,13.40833333,"""https://de.wikipedia.org/wiki/Berlin""",3613495
-"""Stuttgart""","[""Stutengarten"", ""Stuttgart"", ""Stuttgart""]",48.77555556,9.18277778,"""https://de.wikipedia.org/wiki/Stuttgart""",632743
+lon,main_name,names,wikiurl,lat,population
+9.18277778,"""Stuttgart""","[""Stutengarten"", ""Stuttgart"", ""Stuttgart""]","""https://de.wikipedia.org/wiki/Stuttgart""",48.77555556,632743
+10.00833333,"""Burgdorf (Region Hannover)""","[""Auestadt"", ""Burgdorf"", ""Burgdorf_(Region_Hannover)""]","""https://de.wikipedia.org/wiki/Burgdorf_(Region_Hannover)""",52.45,30482
+7.71666667,"""Ibbenb\u00fcren""","[""Ibbenb\u00fcren"", ""Ibbenb%C3%BCren""]","""https://de.wikipedia.org/wiki/Ibbenb%C3%BCren""",52.27777778,52037
+7.66527778,"""Kamen""","[""Kamen"", ""Kamen""]","""https://de.wikipedia.org/wiki/Kamen""",51.59166667,43275
+6.91305556,"""Erkrath""","[""Erkrath"", ""Erkrath""]","""https://de.wikipedia.org/wiki/Erkrath""",51.21833333,44409
+9.36555556,"""Weinstadt""","[""Weinstadt"", ""Weinstadt""]","""https://de.wikipedia.org/wiki/Weinstadt""",48.81111111,26884
+9.5175,"""Wertheim""","[""Stadt Wertheim"", ""Wertheim"", ""Wertheim""]","""https://de.wikipedia.org/wiki/Wertheim""",49.75888889,22777
+7.19138889,"""K\u00f6nigswinter""","[""K\u00f6nigswinter"", ""K%C3%B6nigswinter""]","""https://de.wikipedia.org/wiki/K%C3%B6nigswinter""",50.67666667,41050
+7.33333333,"""Witten""","[""Witten"", ""Witten""]","""https://de.wikipedia.org/wiki/Witten""",51.43333333,96565
+9.8667,"""Buchholz in der Nordheide""","[""Buchholz/Nordheide"", ""Buchholz in der Nordheide"", ""Buchholz_in_der_Nordheide""]","""https://de.wikipedia.org/wiki/Buchholz_in_der_Nordheide""",53.3332,39042
+11.34055556,"""Starnberg""","[""Perchting"", ""Wangen"", ""Percha"", ""Hadorf"", ""Starnberg"", ""Starnberg""]","""https://de.wikipedia.org/wiki/Starnberg""",47.99722222,23339
+7.98805556,"""Kreuztal""","[""Kreuztal"", ""Kreuztal""]","""https://de.wikipedia.org/wiki/Kreuztal""",50.96166667,31017
+6.25,"""Kevelaer""","[""Kevelaer"", ""Kevelaer""]","""https://de.wikipedia.org/wiki/Kevelaer""",51.58333333,28162
+8.40324,"""Ettlingen""","[""Ettlingen"", ""Ettlingen""]","""https://de.wikipedia.org/wiki/Ettlingen""",48.94142,39315
+8.91666667,"""Bruchk\u00f6bel""","[""Bruchk\u00f6bel"", ""Bruchk%C3%B6bel""]","""https://de.wikipedia.org/wiki/Bruchk%C3%B6bel""",50.18333333,20390
+6.65,"""Z\u00fclpich""","[""Z\u00fclpich"", ""Z%C3%BClpich""]","""https://de.wikipedia.org/wiki/Z%C3%BClpich""",50.7,20001
+12.935,"""Werder (Havel)""","[""Werder/Havel"", ""Werder an der Havel"", ""Werder (Havel)"", ""Werder/Havel"", ""Werder_(Havel)""]","""https://de.wikipedia.org/wiki/Werder_(Havel)""",52.37805556,25695
+10.52111111,"""Braunschweig""","[""Braunschweig"", ""Braunschweig""]","""https://de.wikipedia.org/wiki/Braunschweig""",52.26916667,248023
+6.86527778,"""H\u00fcrth""","[""H\u00fcrth <Erftkreis>"", ""H\u00fcrth <Rhein-Erft-Kreis,>"", ""H\u00fcrth"", ""H%C3%BCrth""]","""https://de.wikipedia.org/wiki/H%C3%BCrth""",50.86944444,59762
+13.00416667,"""Torgau""","[""Gro\u00dfe Kreisstadt Torgau"", ""Torgau"", ""Torgau""]","""https://de.wikipedia.org/wiki/Torgau""",51.55833333,20088
+10.89833333,"""Augsburg""","[""Augsburg, St"", ""Augsburg"", ""Augsburg""]","""https://de.wikipedia.org/wiki/Augsburg""",48.37166667,292851
+7.89111111,"""Ahlen""","[""Ahlen <Warendorf>"", ""Ahlen <Kreis Warendorf>"", ""Ahlen"", ""Ahlen""]","""https://de.wikipedia.org/wiki/Ahlen""",51.76333333,52530
+13.64805556,"""Freital""","[""Einheitsgemeinde Freital"", ""Gro\u00dfe Kreisstadt Freital"", ""Kreisstadt Freital"", ""Stadt Freital"", ""Wilhelmine-Reichard-Stadt"", ""Freital"", ""Freital""]","""https://de.wikipedia.org/wiki/Freital""",50.99694444,39300
+7.01476111,"""Essen""","[""Essen"", ""Essen""]","""https://de.wikipedia.org/wiki/Essen""",51.45806944,583393
+9.137,"""Bietigheim-Bissingen""","[""Bietigheim-Bissingen"", ""Bietigheim-Bissingen""]","""https://de.wikipedia.org/wiki/Bietigheim-Bissingen""",48.9498,43266
+7.08583333,"""Marl""","[""Marl"", ""Marl""]","""https://de.wikipedia.org/wiki/Marl""",51.65388889,83695
+6.09638889,"""Heinsberg""","[""Heinsberg (Rhld.)"", ""Heinsberg"", ""Heinsberg""]","""https://de.wikipedia.org/wiki/Heinsberg""",51.06305556,41673
+7.22694444,"""Bad Honnef""","[""Bad Honnef a. Rh."", ""Honnef"", ""Honnef (Rhein)"", ""Bad Honnef"", ""Bad_Honnef""]","""https://de.wikipedia.org/wiki/Bad_Honnef""",50.645,25708
+8.60444444,"""Pfungstadt""","[""Pfungstadt"", ""Pfungstadt""]","""https://de.wikipedia.org/wiki/Pfungstadt""",49.80555556,25020
+11.7425,"""Bernburg (Saale)""","[""Bernburg"", ""Bernburg/Saale"", ""Bernburg (Saale)"", ""Bernburg_(Saale)""]","""https://de.wikipedia.org/wiki/Bernburg_(Saale)""",51.79361111,32876
+6.61777778,"""Wesel""","[""Wesel"", ""Wesel""]","""https://de.wikipedia.org/wiki/Wesel""",51.65861111,60496
+8.51694444,"""Wagh\u00e4usel""","[""Wiesental"", ""Wagh\u00e4usel"", ""Wagh%C3%A4usel""]","""https://de.wikipedia.org/wiki/Wagh%C3%A4usel""",49.25,20816
+8.07388889,"""Achern""","[""Achern"", ""Achern""]","""https://de.wikipedia.org/wiki/Achern""",48.63138889,25445
+7.43333333,"""Herdecke""","[""Herdecke"", ""Herdecke""]","""https://de.wikipedia.org/wiki/Herdecke""",51.4,22836
+8.81861111,"""Syke""","[""Syke"", ""Syke""]","""https://de.wikipedia.org/wiki/Syke""",52.91611111,24346
+7.31666667,"""Lingen (Ems)""","[""Lingen/Ems"", ""Lingen (Ems)"", ""Lingen_(Ems)""]","""https://de.wikipedia.org/wiki/Lingen_(Ems)""",52.52222222,54117
+7.58722222,"""H\u00f6rstel""","[""H\u00f6rstel"", ""H%C3%B6rstel""]","""https://de.wikipedia.org/wiki/H%C3%B6rstel""",52.3,20093
+8.44777778,"""Ludwigshafen am Rhein""","[""Ludwigshafen"", ""Ludwigshafen/Rhein"", ""Ludwigshafen am Rhein"", ""Ludwigshafen_am_Rhein""]","""https://de.wikipedia.org/wiki/Ludwigshafen_am_Rhein""",49.48305556,168497
+7.24166667,"""Haren (Ems)""","[""Altharen"", ""Maczk\u00f3w"", ""Haren (Ems)"", ""Haren"", ""Haren_(Ems)""]","""https://de.wikipedia.org/wiki/Haren_(Ems)""",52.79027778,23665
+9.59805556,"""Seelze""","[""Seelze"", ""Seelze""]","""https://de.wikipedia.org/wiki/Seelze""",52.39611111,34036
+6.4,"""Rees""","[""Rees"", ""Rees""]","""https://de.wikipedia.org/wiki/Rees""",51.76666667,21137
+9.45722222,"""Neustadt am R\u00fcbenberge""","[""Neustadt am R\u00fcbenberge"", ""Neustadt_am_R%C3%BCbenberge""]","""https://de.wikipedia.org/wiki/Neustadt_am_R%C3%BCbenberge""",52.50305556,43964
+7.849881,"""Freiburg im Breisgau""","[""Freiburg"", ""Freiburg i. B."", ""Freiburg i. Br."", ""Freiburg/Breisgau"", ""Freiburg im Breisgau"", ""Freiburg_im_Breisgau""]","""https://de.wikipedia.org/wiki/Freiburg_im_Breisgau""",47.994828,229636
+8.79472222,"""Osterholz-Scharmbeck""","[""Osterholz-Scharmbeck"", ""Osterholz-Scharmbeck""]","""https://de.wikipedia.org/wiki/Osterholz-Scharmbeck""",53.22694444,30329
+10.71833333,"""Gotha""","[""Gotha"", ""Gotha""]","""https://de.wikipedia.org/wiki/Gotha""",50.94888889,45589
+9.43666667,"""Flensburg""","[""Flensburg"", ""Flensburg""]","""https://de.wikipedia.org/wiki/Flensburg""",54.78194444,88519
+11.45555556,"""Aschersleben""","[""Aschersleben"", ""Aschersleben""]","""https://de.wikipedia.org/wiki/Aschersleben""",51.75555556,27712
+8.1,"""Wilnsdorf""","[""Wilnsdorf"", ""Wilnsdorf""]","""https://de.wikipedia.org/wiki/Wilnsdorf""",50.81666667,20244
+6.65,"""Bergheim""","[""Bergheim (Erft)"", ""Bergheim/Erft"", ""Bergheim"", ""Bergheim""]","""https://de.wikipedia.org/wiki/Bergheim""",50.96666667,61099
+11.42444444,"""Ingolstadt""","[""Ingolstadt, St"", ""Ingolstadt"", ""Ingolstadt""]","""https://de.wikipedia.org/wiki/Ingolstadt""",48.76555556,135244
+11.97222222,"""Wei\u00dfenfels""","[""Wei\u00dfenfels"", ""Wei%C3%9Fenfels""]","""https://de.wikipedia.org/wiki/Wei%C3%9Fenfels""",51.20111111,40874
+7.04166667,"""Gronau (Westf.)""","[""Gronau (Westf.)"", ""Gronau/Westfalen"", ""Gronau"", ""Gronau_(Westf.)""]","""https://de.wikipedia.org/wiki/Gronau_(Westf.)""",52.2125,47671
+8.70611111,"""Bretten""","[""G\u00f6lshausen"", ""Neibsheim"", ""Ruit"", ""Sprantal"", ""D\u00fcrrenb\u00fcchig"", ""Rinklingen"", ""Bretten"", ""Bretten""]","""https://de.wikipedia.org/wiki/Bretten""",49.03638889,29336
+12.92416667,"""Chemnitz""","[""Karl-Marx-Stadt"", ""Chemnitz"", ""Chemnitz""]","""https://de.wikipedia.org/wiki/Chemnitz""",50.83222222,246855
+7.87333333,"""Plettenberg""","[""Plettenberg"", ""Plettenberg""]","""https://de.wikipedia.org/wiki/Plettenberg""",51.21527778,25414
+6.6439,"""Trier""","[""Augusta Treverorum"", ""Trier"", ""Trier""]","""https://de.wikipedia.org/wiki/Trier""",49.7596,110013
+8.87083333,"""Herrenberg""","[""Herrenberg"", ""Herrenberg""]","""https://de.wikipedia.org/wiki/Herrenberg""",48.59666667,31499
+9.83055556,"""Geislingen an der Steige""","[""Aufhausen"", ""Waldhausen"", ""St\u00f6tten"", ""T\u00fcrkheim"", ""Eybach"", ""Geislingen/Steige"", ""Altenstadt"", ""Geislingen"", ""Geislingen an der Steige"", ""Geislingen_an_der_Steige""]","""https://de.wikipedia.org/wiki/Geislingen_an_der_Steige""",48.62444444,28021
+7.59388889,"""Koblenz""","[""Koblenz"", ""Koblenz""]","""https://de.wikipedia.org/wiki/Koblenz""",50.35666667,113844
+8.48180556,"""Gro\u00df-Gerau""","[""Gro\u00df-Gerau"", ""Gro%C3%9F-Gerau""]","""https://de.wikipedia.org/wiki/Gro%C3%9F-Gerau""",49.92138889,24839
+8.56805556,"""Brilon""","[""Brilon"", ""Brilon""]","""https://de.wikipedia.org/wiki/Brilon""",51.39527778,25501
+7.01055556,"""Haan""","[""Haan"", ""Haan""]","""https://de.wikipedia.org/wiki/Haan""",51.19222222,30483
+8.63388889,"""Delmenhorst""","[""Delmenhorst"", ""Delmenhorst""]","""https://de.wikipedia.org/wiki/Delmenhorst""",53.04972222,77521
+11.58361111,"""Sta\u00dffurt""","[""Stassfurt"", ""Sta\u00dffurt"", ""Sta%C3%9Ffurt""]","""https://de.wikipedia.org/wiki/Sta%C3%9Ffurt""",51.85083333,25830
+12.64888889,"""Traunstein""","[""Traunstein"", ""Traunstein""]","""https://de.wikipedia.org/wiki/Traunstein""",47.87166667,20172
+8.58043333,"""B\u00fcnde""","[""Zigarrenstadt"", ""B\u00fcnde"", ""B%C3%BCnde""]","""https://de.wikipedia.org/wiki/B%C3%BCnde""",52.19726944,45712
+12.49222222,"""Zwickau""","[""Zwickau"", ""Zwickau""]","""https://de.wikipedia.org/wiki/Zwickau""",50.71888889,90192
+7.62972222,"""L\u00fcdenscheid""","[""L\u00fcdenscheid"", ""L%C3%BCdenscheid""]","""https://de.wikipedia.org/wiki/L%C3%BCdenscheid""",51.21833333,72894
+7.25,"""Blieskastel""","[""Blieskastel"", ""Blieskastel""]","""https://de.wikipedia.org/wiki/Blieskastel""",49.23305556,20770
+9.980555,"""Henstedt-Ulzburg""","[""Ulzburg"", ""Henstedt-Ulzburg"", ""Henstedt-Ulzburg""]","""https://de.wikipedia.org/wiki/Henstedt-Ulzburg""",53.790515,28056
+7.28333333,"""Hennef (Sieg)""","[""Hennef"", ""Stadt der 100 D\u00f6rfer"", ""Hennef (Sieg)"", ""Hennef_(Sieg)""]","""https://de.wikipedia.org/wiki/Hennef_(Sieg)""",50.78333333,47293
+9.65,"""Hann. M\u00fcnden""","[""Hann M\u00fcnden"", ""Hann\u00f6verisch M\u00fcnden"", ""Hannoversch-M\u00fcnden"", ""Hannoversch M\u00fcnden"", ""Hann. M\u00fcnden"", ""Hann._M%C3%BCnden""]","""https://de.wikipedia.org/wiki/Hann._M%C3%BCnden""",51.41666667,23853
+7.62944444,"""Weil am Rhein""","[""Weil/Rhein"", ""Weil am Rhein"", ""Weil_am_Rhein""]","""https://de.wikipedia.org/wiki/Weil_am_Rhein""",47.59416667,30197
+8.50333333,"""Donaueschingen""","[""Aufen"", ""Hubertshofen"", ""Wolterdingen"", ""Gr\u00fcningen"", ""Aasen"", ""Heidenhofen"", ""Allmendshofen"", ""Pfohren"", ""Donaueschingen"", ""Donaueschingen""]","""https://de.wikipedia.org/wiki/Donaueschingen""",47.95305556,22485
+11.56666667,"""Unterschlei\u00dfheim""","[""Unterschleissheim"", ""Unterschlei\u00dfheim"", ""Unterschlei%C3%9Fheim""]","""https://de.wikipedia.org/wiki/Unterschlei%C3%9Fheim""",48.28333333,28809
+8.90925,"""Eppingen""","[""Eppingen"", ""Eppingen""]","""https://de.wikipedia.org/wiki/Eppingen""",49.13694444,21522
+8.135,"""Varel""","[""Hohelucht"", ""Rallenb\u00fcschen"", ""Hohenberge"", ""Altj\u00fchrden"", ""Plaggenkrug"", ""Dangastermoor"", ""Jethausen"", ""Bramloge"", ""Tange"", ""Neuenwege"", ""Rahling"", ""Moorhausen"", ""Almsee"", ""Logemoor"", ""Vareler Schleuse"", ""Rosenberg"", ""Varel"", ""Varel""]","""https://de.wikipedia.org/wiki/Varel""",53.39472222,23925
+7.25083333,"""Oer-Erkenschwick""","[""Oer-Erkenschwick"", ""Oer-Erkenschwick""]","""https://de.wikipedia.org/wiki/Oer-Erkenschwick""",51.64222222,31378
+13.27944444,"""Hohen Neuendorf""","[""Hohen Neuendorf"", ""Hohen_Neuendorf""]","""https://de.wikipedia.org/wiki/Hohen_Neuendorf""",52.67111111,26001
+6.44194444,"""M\u00f6nchengladbach""","[""M\u00f6nchengladbach"", ""M%C3%B6nchengladbach""]","""https://de.wikipedia.org/wiki/M%C3%B6nchengladbach""",51.19111111,262188
+8.16055556,"""Taunusstein""","[""Taunusstein"", ""Taunusstein""]","""https://de.wikipedia.org/wiki/Taunusstein""",50.14347222,29746
+8.93444444,"""Rottenburg am Neckar""","[""Rottenburg"", ""Rottenburg/Neckar"", ""Rottenburg am Neckar"", ""Rottenburg_am_Neckar""]","""https://de.wikipedia.org/wiki/Rottenburg_am_Neckar""",48.47722222,43615
+8.80731111,"""Bremen""","[""Hansestadt Bremen"", ""Bremen"", ""Bremen""]","""https://de.wikipedia.org/wiki/Bremen""",53.07587778,568006
+9.87972222,"""Laupheim""","[""Laupheim"", ""Laupheim""]","""https://de.wikipedia.org/wiki/Laupheim""",48.22888889,22136
+11.74888889,"""Freising""","[""Freising"", ""Freising""]","""https://de.wikipedia.org/wiki/Freising""",48.40277778,48318
+8.00972222,"""Bad Zwischenahn""","[""Zwischenahn"", ""Bad Zwischenahn"", ""Bad_Zwischenahn""]","""https://de.wikipedia.org/wiki/Bad_Zwischenahn""",53.18361111,28507
+8.03333333,"""Georgsmarienh\u00fctte""","[""Georgsmarienh\u00fctte"", ""Georgsmarienh%C3%BCtte""]","""https://de.wikipedia.org/wiki/Georgsmarienh%C3%BCtte""",52.20722222,31624
+6.81388889,"""Frechen""","[""Frechen"", ""Frechen""]","""https://de.wikipedia.org/wiki/Frechen""",50.91333333,52212
+9.17527778,"""Konstanz""","[""Konstanz"", ""Konstanz""]","""https://de.wikipedia.org/wiki/Konstanz""",47.66333333,84440
+9.1852,"""Kornwestheim""","[""Kornwestheim"", ""Kornwestheim""]","""https://de.wikipedia.org/wiki/Kornwestheim""",48.8598,33766
+7.62869444,"""M\u00fcnster""","[""Monasterium"", ""M\u00f6nster"", ""M\u00fcnster (Westf)"", ""M\u00fcnster (Westfalen)"", ""M\u00fcnster"", ""M%C3%BCnster""]","""https://de.wikipedia.org/wiki/M%C3%BCnster""",51.96294444,313559
+8.8394,"""M\u00fchlacker""","[""M\u00fchlacker"", ""M%C3%BChlacker""]","""https://de.wikipedia.org/wiki/M%C3%BChlacker""",48.9501,26008
+12.5925,"""Traunreut""","[""Traunreut"", ""Traunreut""]","""https://de.wikipedia.org/wiki/Traunreut""",47.96194444,20934
+8.92137222,"""Porta Westfalica (Stadt)""","[""Porta Westfalica"", ""Porta_Westfalica_(Stadt)""]","""https://de.wikipedia.org/wiki/Porta_Westfalica_(Stadt)""",52.2401,35660
+9.52629,"""Schorndorf""","[""Schorndorf"", ""Schorndorf""]","""https://de.wikipedia.org/wiki/Schorndorf""",48.80463,39601
+9.19194444,"""Gelnhausen""","[""Geografischer Mittelpunkt der Europ\u00e4ischen Union"", ""Gelnhausen"", ""Gelnhausen""]","""https://de.wikipedia.org/wiki/Gelnhausen""",50.20083333,22873
+12.3325,"""Rathenow""","[""Amt Rathenow"", ""Rathenow"", ""Rathenow""]","""https://de.wikipedia.org/wiki/Rathenow""",52.6075,24309
+6.1275,"""W\u00fcrselen""","[""W\u00fcrselen"", ""W%C3%BCrselen""]","""https://de.wikipedia.org/wiki/W%C3%BCrselen""",50.82472222,38934
+8.50444444,"""Wetzlar""","[""Wetzlar"", ""Wetzlar""]","""https://de.wikipedia.org/wiki/Wetzlar""",50.55777778,52828
+8.57694444,"""Oberursel (Taunus)""","[""Oberursel (Taunus)"", ""Oberursel/Taunus"", ""Oberursel"", ""Oberursel_(Taunus)""]","""https://de.wikipedia.org/wiki/Oberursel_(Taunus)""",50.20277778,46069
+9.681372,"""Fulda""","[""Fulda"", ""Fulda""]","""https://de.wikipedia.org/wiki/Fulda""",50.555894,67973
+8.62305556,"""L\u00fcbbecke""","[""L\u00fcbbecke"", ""L%C3%BCbbecke""]","""https://de.wikipedia.org/wiki/L%C3%BCbbecke""",52.30805556,25499
+8.58194444,"""Weiterstadt""","[""Weiterstadt"", ""Weiterstadt""]","""https://de.wikipedia.org/wiki/Weiterstadt""",49.90583333,25843
+8.06466667,"""Arnsberg""","[""Arnsberg"", ""Arnsberg""]","""https://de.wikipedia.org/wiki/Arnsberg""",51.39666667,73814
+11.05226,"""Halberstadt""","[""Halberstadt"", ""Halberstadt""]","""https://de.wikipedia.org/wiki/Halberstadt""",51.89504,40871
+7.18666667,"""Sankt Augustin""","[""St. Augustin"", ""Sankt Augustin"", ""Sankt_Augustin""]","""https://de.wikipedia.org/wiki/Sankt_Augustin""",50.77,55873
+8.63111111,"""Schlo\u00df Holte-Stukenbrock""","[""Schloss Holte-Stukenbrok"", ""Schlo\u00df Holte-Stukenbrock"", ""Schlo%C3%9F_Holte-Stukenbrock""]","""https://de.wikipedia.org/wiki/Schlo%C3%9F_Holte-Stukenbrock""",51.90611111,26772
+8.65122222,"""Darmstadt""","[""Darmstadt"", ""Darmstadt""]","""https://de.wikipedia.org/wiki/Darmstadt""",49.87283333,158254
+6.59083333,"""Hamminkeln""","[""Hamminkeln"", ""Hamminkeln""]","""https://de.wikipedia.org/wiki/Hamminkeln""",51.73194444,26709
+11.77055556,"""Vaterstetten""","[""Parsdorf"", ""Vaterstetten"", ""Vaterstetten""]","""https://de.wikipedia.org/wiki/Vaterstetten""",48.105,23229
+7.31666667,"""Castrop-Rauxel""","[""Castrop-Rauxel"", ""Castrop-Rauxel""]","""https://de.wikipedia.org/wiki/Castrop-Rauxel""",51.55,73989
+7.53444444,"""Emsdetten""","[""Emsdetten"", ""Emsdetten""]","""https://de.wikipedia.org/wiki/Emsdetten""",52.17277778,36151
+6.16194444,"""Goch""","[""Goch"", ""Goch""]","""https://de.wikipedia.org/wiki/Goch""",51.68388889,33618
+10.00111111,"""Northeim""","[""G\u00fcntgenburg"", ""Northeim"", ""Northeim""]","""https://de.wikipedia.org/wiki/Northeim""",51.70666667,29040
+10.035,"""Seevetal""","[""Seevetal"", ""Seevetal""]","""https://de.wikipedia.org/wiki/Seevetal""",53.37777778,41260
+6.45055556,"""Xanten""","[""Xanten"", ""Xanten""]","""https://de.wikipedia.org/wiki/Xanten""",51.66027778,21614
+8.48694444,"""Stutensee""","[""Stutensee"", ""Stutensee""]","""https://de.wikipedia.org/wiki/Stutensee""",49.08722222,24242
+7.20555556,"""Emden""","[""Emden"", ""Emden""]","""https://de.wikipedia.org/wiki/Emden""",53.36694444,50607
+8.00583333,"""Sundern (Sauerland)""","[""Sundern"", ""Sundern (Sauerland)"", ""Sundern_(Sauerland)""]","""https://de.wikipedia.org/wiki/Sundern_(Sauerland)""",51.32472222,27871
+7.20444444,"""Siegburg""","[""Siegburg"", ""Siegburg""]","""https://de.wikipedia.org/wiki/Siegburg""",50.80138889,41326
+8.62472222,"""Rottweil""","[""Rottweil"", ""Rottweil""]","""https://de.wikipedia.org/wiki/Rottweil""",48.16805556,25204
+14.33416667,"""Cottbus""","[""Ch\u00f3\u015bebuz"", ""Cottbus"", ""Cottbus""]","""https://de.wikipedia.org/wiki/Cottbus""",51.76055556,101036
+10.8833,"""Herzogenaurach""","[""Niederndorf (Herzogenaurach)"", ""Hauptendorf"", ""Herzogenaurach"", ""Herzogenaurach""]","""https://de.wikipedia.org/wiki/Herzogenaurach""",49.56874,23098
+8.14361111,"""Oelde""","[""Oelde"", ""Oelde""]","""https://de.wikipedia.org/wiki/Oelde""",51.82583333,29209
+6.98333333,"""Leverkusen""","[""Leverkusen"", ""Leverkusen""]","""https://de.wikipedia.org/wiki/Leverkusen""",51.03333333,163577
+10.14019,"""Kiel""","[""Kiel"", ""Kiel""]","""https://de.wikipedia.org/wiki/Kiel""",54.32321,247943
+8.33611111,"""Melle""","[""Melle"", ""Melle""]","""https://de.wikipedia.org/wiki/Melle""",52.20305556,46451
+7.42277778,"""Moormerland""","[""Moormerland"", ""Moormerland""]","""https://de.wikipedia.org/wiki/Moormerland""",53.31972222,23474
+7.475,"""Hagen""","[""Hagen (Westf.)"", ""Hagen i. W."", ""Hagen/Westfalen"", ""Hagen"", ""Hagen""]","""https://de.wikipedia.org/wiki/Hagen""",51.35944444,187730
+13.535,"""Panketal""","[""Panketal"", ""Panketal""]","""https://de.wikipedia.org/wiki/Panketal""",52.65305556,20390
+7.94083333,"""Offenburg""","[""Offenburg"", ""Offenburg""]","""https://de.wikipedia.org/wiki/Offenburg""",48.47083333,59060
+12.64333333,"""Lutherstadt Wittenberg""","[""Wittenberg"", ""Wittenberg Lutherstadt"", ""Lutherstadt Wittenberg"", ""Lutherstadt_Wittenberg""]","""https://de.wikipedia.org/wiki/Lutherstadt_Wittenberg""",51.86666667,46272
+11.99916667,"""Merseburg""","[""Merseburg"", ""Merseburg""]","""https://de.wikipedia.org/wiki/Merseburg""",51.35472222,34197
+9.61361111,"""Ravensburg""","[""Ravensburg"", ""Ravensburg""]","""https://de.wikipedia.org/wiki/Ravensburg""",47.78194444,50393
+7.46676,"""Westoverledingen""","[""Westoverledingen"", ""Westoverledingen""]","""https://de.wikipedia.org/wiki/Westoverledingen""",53.14979,20912
+8.77222222,"""Marburg""","[""Marburg (Lahn)"", ""Marburg a. d. Lahn"", ""Marburg an der Lahn"", ""Marburg/Lahn"", ""Marburg"", ""Marburg""]","""https://de.wikipedia.org/wiki/Marburg""",50.8075,76226
+9.77315278,"""Bad Mergentheim""","[""Mergentheim"", ""Bad Mergentheim"", ""Bad_Mergentheim""]","""https://de.wikipedia.org/wiki/Bad_Mergentheim""",49.49019722,23502
+9.381135,"""H\u00f6xter""","[""H\u00f6xter"", ""H%C3%B6xter""]","""https://de.wikipedia.org/wiki/H%C3%B6xter""",51.774082,29112
+8.04388889,"""Cloppenburg""","[""Cloppenburg"", ""Cloppenburg""]","""https://de.wikipedia.org/wiki/Cloppenburg""",52.84777778,34581
+10.02222222,"""Leutkirch im Allg\u00e4u""","[""Riedlings"", ""Tautenhofen"", ""Ausnang"", ""Leutkirch"", ""Urlau"", ""Diepoldshofen"", ""Leutkirch/Allg\u00e4u"", ""Leutkirch im Allg\u00e4u"", ""Leutkirch_im_Allg%C3%A4u""]","""https://de.wikipedia.org/wiki/Leutkirch_im_Allg%C3%A4u""",47.82555556,22752
+10.57166667,"""Ansbach""","[""Ansbach"", ""Ansbach""]","""https://de.wikipedia.org/wiki/Ansbach""",49.30083333,41652
+9.66305556,"""Rendsburg""","[""Rendsborg"", ""Rendsburg"", ""Rendsburg""]","""https://de.wikipedia.org/wiki/Rendsburg""",54.30638889,28789
+12.37475,"""Leipzig""","[""Leipzig"", ""Leipzig""]","""https://de.wikipedia.org/wiki/Leipzig""",51.34033333,581980
+8.135,"""B\u00fchl (Baden)""","[""Eisental"", ""Balzhofen"", ""Oberbruch"", ""Affental"", ""Kappelwindeck"", ""B\u00fchl (Baden)"", ""B\u00fchl"", ""B%C3%BChl_(Baden)""]","""https://de.wikipedia.org/wiki/B%C3%BChl_(Baden)""",48.69527778,29000
+9.06694444,"""Ditzingen""","[""Ditzingen"", ""Ditzingen""]","""https://de.wikipedia.org/wiki/Ditzingen""",48.82611111,24942
+6.54916667,"""Willich""","[""Willich"", ""Willich""]","""https://de.wikipedia.org/wiki/Willich""",51.26305556,51179
+7.29277778,"""Meppen""","[""Meppen"", ""Meppen""]","""https://de.wikipedia.org/wiki/Meppen""",52.69361111,35267
+12.52277778,"""M\u00fchldorf am Inn""","[""M\u00fchldorf a.Inn"", ""Ecksberg"", ""Hart"", ""M\u00f6\u00dfling"", ""M\u00fchldorf/Inn"", ""M\u00fchldorf"", ""M\u00fchldorf (Inn)"", ""M\u00fchldorf am Inn"", ""M%C3%BChldorf_am_Inn""]","""https://de.wikipedia.org/wiki/M%C3%BChldorf_am_Inn""",48.24555556,20123
+13.4,"""Blankenfelde-Mahlow""","[""Blankenfelde-Mahlow"", ""Blankenfelde-Mahlow""]","""https://de.wikipedia.org/wiki/Blankenfelde-Mahlow""",52.35,27378
+8.69833333,"""Wiesloch""","[""Wiesloch"", ""Wiesloch""]","""https://de.wikipedia.org/wiki/Wiesloch""",49.29416667,26779
+13.38111111,"""Greifswald""","[""Hansestadt Greifswald"", ""Griepswold"", ""Universit\u00e4ts- und Hansestadt Greifswald"", ""Greifswald"", ""Greifswald""]","""https://de.wikipedia.org/wiki/Greifswald""",54.09583333,58886
+6.72305556,"""Fr\u00f6ndenberg/Ruhr""","[""Ruhr"", ""Ruhr""]","""https://de.wikipedia.org/wiki/Fr%C3%B6ndenberg/Ruhr""",51.45083333,20843
+8.54722222,"""Hockenheim""","[""Hockenheim"", ""Hockenheim""]","""https://de.wikipedia.org/wiki/Hockenheim""",49.31805556,21739
+8.83,"""M\u00fchlheim am Main""","[""M\u00fchlheim am Main"", ""M%C3%BChlheim_am_Main""]","""https://de.wikipedia.org/wiki/M%C3%BChlheim_am_Main""",50.12569444,28318
+9.70527778,"""Wedel""","[""Wedel"", ""Wedel""]","""https://de.wikipedia.org/wiki/Wedel""",53.57722222,33347
+7.68888889,"""Unna""","[""Unna"", ""Unna""]","""https://de.wikipedia.org/wiki/Unna""",51.53472222,57158
+8.8,"""Bad Oeynhausen""","[""Bad Oeynhausen"", ""Bad_Oeynhausen""]","""https://de.wikipedia.org/wiki/Bad_Oeynhausen""",52.2,48747
+13.20361111,"""Hennigsdorf""","[""Hennigsdorf"", ""Hennigsdorf""]","""https://de.wikipedia.org/wiki/Hennigsdorf""",52.63777778,26369
+10.28111111,"""Sonthofen""","[""Altst\u00e4dten"", ""Sonthofen"", ""Sonthofen""]","""https://de.wikipedia.org/wiki/Sonthofen""",47.51222222,21522
+11.48222222,"""Geretsried""","[""Geretsried"", ""Geretsried""]","""https://de.wikipedia.org/wiki/Geretsried""",47.85611111,24892
+6.93944444,"""Hilden""","[""Hilden"", ""Hilden""]","""https://de.wikipedia.org/wiki/Hilden""",51.17138889,55817
+7.20222222,"""Norden (Ostfriesland)""","[""Lintel"", ""Zingel"", ""Armenplatz"", ""N\u00f6rden"", ""Hollande"", ""Westgaste"", ""Westlintel"", ""Norden-Neustadt"", ""Norden (Ostfriesland)"", ""Norden"", ""Norden_(Ostfriesland)""]","""https://de.wikipedia.org/wiki/Norden_(Ostfriesland)""",53.59472222,25056
+11.86,"""Stendal""","[""Stendal"", ""Stendal""]","""https://de.wikipedia.org/wiki/Stendal""",52.60527778,39822
+13.456944,"""Passau""","[""Dreifl\u00fcssestadt"", ""Passau, St"", ""Passau"", ""Passau""]","""https://de.wikipedia.org/wiki/Passau""",48.5733333,51781
+10.25222222,"""Osterode am Harz""","[""Osterode"", ""Osterode/Harz"", ""Osterode am Harz"", ""Osterode_am_Harz""]","""https://de.wikipedia.org/wiki/Osterode_am_Harz""",51.72861111,21839
+11.57833333,"""Bayreuth""","[""Bayreuth, St"", ""Bayreuth"", ""Bayreuth""]","""https://de.wikipedia.org/wiki/Bayreuth""",49.94805556,73999
+9.235,"""Verden (Aller)""","[""Veern"", ""Verden an der Aller"", ""Reichsstadt Verden"", ""Verden"", ""Verden/Aller"", ""Verden (Aller)"", ""Verden_(Aller)""]","""https://de.wikipedia.org/wiki/Verden_(Aller)""",52.92333333,27747
+6.26305556,"""Eschweiler""","[""Eschweiler"", ""Eschweiler""]","""https://de.wikipedia.org/wiki/Eschweiler""",50.82083333,56207
+8.56902778,"""Eschborn""","[""Eschborn"", ""Eschborn""]","""https://de.wikipedia.org/wiki/Eschborn""",50.14375,21419
+8.3,"""Rheda-Wiedenbr\u00fcck""","[""Rheda-Wiedenbr\u00fcck"", ""Rheda-Wiedenbr%C3%BCck""]","""https://de.wikipedia.org/wiki/Rheda-Wiedenbr%C3%BCck""",51.84166667,48685
+6.61083333,"""Bocholt""","[""Bocholt"", ""Bocholt""]","""https://de.wikipedia.org/wiki/Bocholt""",51.83666667,71036
+8.28388889,"""Dillenburg""","[""Dillenburg"", ""Dillenburg""]","""https://de.wikipedia.org/wiki/Dillenburg""",50.74138889,23471
+13.79839,"""Eberswalde""","[""Eberswalde"", ""Eberswalde""]","""https://de.wikipedia.org/wiki/Eberswalde""",52.83448,40223
+8.3058,"""Rheinstetten""","[""Rheinstetten"", ""Rheinstetten""]","""https://de.wikipedia.org/wiki/Rheinstetten""",48.96813,20417
+6.08361111,"""Aachen""","[""Bad Aachen"", ""Aix-la-Chapelle"", ""Oche"", ""Aachen"", ""Aachen""]","""https://de.wikipedia.org/wiki/Aachen""",50.77666667,246272
+10.95,"""Zirndorf""","[""Zirndorf"", ""Zirndorf""]","""https://de.wikipedia.org/wiki/Zirndorf""",49.45,25307
+9.92944444,"""W\u00fcrzburg""","[""W\u00dc"", ""W\u00fcrzburg, St"", ""W\u00fcrzburg"", ""W%C3%BCrzburg""]","""https://de.wikipedia.org/wiki/W%C3%BCrzburg""",49.79444444,126635
+9.64444444,"""Weingarten (W\u00fcrttemberg)""","[""Altdorf"", ""Altdorf-Weingarten"", ""Weingarten (W\u00fcrttemberg)"", ""Weingarten"", ""Weingarten_(W%C3%BCrttemberg)""]","""https://de.wikipedia.org/wiki/Weingarten_(W%C3%BCrttemberg)""",47.80916667,25011
+8.96861111,"""Radolfzell am Bodensee""","[""Radolfzell"", ""Radolfzell am Bodensee"", ""Radolfzell_am_Bodensee""]","""https://de.wikipedia.org/wiki/Radolfzell_am_Bodensee""",47.73888889,31064
+8.53222222,"""Bielefeld""","[""Leineweberstadt"", ""Bielefeld"", ""Bielefeld""]","""https://de.wikipedia.org/wiki/Bielefeld""",52.02041667,332552
+11.85472222,"""Burg (bei Magdeburg)""","[""Burg bei Magdeburg"", ""Stadt Burg"", ""Burg (bei Magdeburg)"", ""Burg (b Magdeburg)"", ""Burg"", ""Burg_(bei_Magdeburg)""]","""https://de.wikipedia.org/wiki/Burg_(bei_Magdeburg)""",52.26972222,22583
+12.37666667,"""Markkleeberg""","[""Gro\u00dfe Kreisstadt Markkleeberg"", ""Markkleeberg"", ""Markkleeberg""]","""https://de.wikipedia.org/wiki/Markkleeberg""",51.28027778,24644
+8.41472222,"""Steinhagen (Westfalen)""","[""Steinhagen"", ""Steinhagen_(Westfalen)""]","""https://de.wikipedia.org/wiki/Steinhagen_(Westfalen)""",52.005,20715
+11.052246,"""M\u00fchlhausen/Th\u00fcringen""","[""DE-TH"", ""Freistaat Th\u00fcringen"", ""Th\u00fcringen"", ""Th%C3%BCringen""]","""https://de.wikipedia.org/wiki/M%C3%BChlhausen/Th%C3%BCringen""",50.861444,33127
+6.84194444,"""Dormagen""","[""Dormagen"", ""Dormagen""]","""https://de.wikipedia.org/wiki/Dormagen""",51.09333333,64177
+9.5,"""Kassel""","[""Cassel"", ""Kassel"", ""Kassel""]","""https://de.wikipedia.org/wiki/Kassel""",51.31666667,200736
+10.22361111,"""Ilsede""","[""Ilsede"", ""Ilsede""]","""https://de.wikipedia.org/wiki/Ilsede""",52.2675,21530
+10.77666667,"""Wernigerode""","[""Wernigerode"", ""Wernigerode""]","""https://de.wikipedia.org/wiki/Wernigerode""",51.83583333,32837
+10.86666667,"""Gersthofen""","[""Gersthofen"", ""Gersthofen""]","""https://de.wikipedia.org/wiki/Gersthofen""",48.41666667,22430
+10.489575,"""N\u00f6rdlingen""","[""N\u00f6rdlingen"", ""N%C3%B6rdlingen""]","""https://de.wikipedia.org/wiki/N%C3%B6rdlingen""",48.85083056,20236
+8.77083333,"""Offenbach am Main""","[""Offenbach"", ""Offenbach/Main"", ""Offenbach am Main"", ""Offenbach_am_Main""]","""https://de.wikipedia.org/wiki/Offenbach_am_Main""",50.09944444,126658
+12.30305556,"""Reichenbach im Vogtland""","[""Reichenbach"", ""Reichenbach/Vogtland"", ""Reichenbach im Vogtland"", ""Reichenbach_im_Vogtland""]","""https://de.wikipedia.org/wiki/Reichenbach_im_Vogtland""",50.62083333,20882
+8.05416667,"""Ingelheim am Rhein""","[""Ingelheim"", ""Ingelheim am Rhein"", ""Ingelheim_am_Rhein""]","""https://de.wikipedia.org/wiki/Ingelheim_am_Rhein""",49.97416667,24833
+14.25,"""Hoyerswerda""","[""Wojerecy"", ""Hoyerswerda"", ""Hoyerswerda""]","""https://de.wikipedia.org/wiki/Hoyerswerda""",51.43333,33116
+9.22222222,"""Heilbronn""","[""Heilbronn"", ""Heilbronn""]","""https://de.wikipedia.org/wiki/Heilbronn""",49.14166667,125113
+11.00431111,"""Erlangen""","[""Erlangen, St"", ""Erlangen"", ""Erlangen""]","""https://de.wikipedia.org/wiki/Erlangen""",49.59636111,110998
+7.01277778,"""Leichlingen (Rheinland)""","[""Leichlingen (Rheinland)"", ""Leichlingen"", ""Leichlingen_(Rheinland)""]","""https://de.wikipedia.org/wiki/Leichlingen_(Rheinland)""",51.10277778,28166
+6.1,"""Herzogenrath""","[""Herzogenrath"", ""Herzogenrath""]","""https://de.wikipedia.org/wiki/Herzogenrath""",50.86666667,46462
+9.01763,"""Stadtallendorf""","[""Allendorf im B\u00e4renschie\u00dfen"", ""Stadtallendorf"", ""Stadtallendorf""]","""https://de.wikipedia.org/wiki/Stadtallendorf""",50.826758,21348
+12.4,"""Waldkraiburg""","[""Waldkraiburg"", ""Waldkraiburg""]","""https://de.wikipedia.org/wiki/Waldkraiburg""",48.21666667,23435
+7.08333333,"""Solingen""","[""Solingen"", ""Solingen""]","""https://de.wikipedia.org/wiki/Solingen""",51.17138889,158803
+7.85861111,"""Friesoythe""","[""Pahlb\u00f6rg"", ""Friesoythe"", ""Friesoythe""]","""https://de.wikipedia.org/wiki/Friesoythe""",53.02055556,22288
+8.01666667,"""Wallenhorst""","[""Wallenhorst"", ""Wallenhorst""]","""https://de.wikipedia.org/wiki/Wallenhorst""",52.35,22981
+6.73333333,"""Dinslaken""","[""Dinslaken"", ""Dinslaken""]","""https://de.wikipedia.org/wiki/Dinslaken""",51.56666667,67489
+8.91166667,"""Lemgo""","[""Lemge"", ""Lemje"", ""Lemgo"", ""Lemgo""]","""https://de.wikipedia.org/wiki/Lemgo""",52.02722222,40871
+7.215688,"""Wermelskirchen""","[""Wermelskirchen"", ""Wermelskirchen""]","""https://de.wikipedia.org/wiki/Wermelskirchen""",51.141088,34705
+7.56527778,"""Schwerte""","[""Schwerte"", ""Schwerte""]","""https://de.wikipedia.org/wiki/Schwerte""",51.44583333,46641
+11.91388889,"""Saalfeld/Saale""","[""Saale"", ""Saale""]","""https://de.wikipedia.org/wiki/Saalfeld/Saale""",51.95472222,24789
+7.98431,"""Edewecht""","[""Erwech"", ""Portsloge"", ""Adewacht"", ""Edewecht"", ""Edewecht""]","""https://de.wikipedia.org/wiki/Edewecht""",53.12817,22270
+12.80531667,"""Neuruppin""","[""Neuruppin"", ""Neuruppin""]","""https://de.wikipedia.org/wiki/Neuruppin""",52.92489444,30889
+7.34166667,"""Datteln""","[""Datteln"", ""Datteln""]","""https://de.wikipedia.org/wiki/Datteln""",51.65388889,34563
+10.89166667,"""Bamberg""","[""Bamberg, St"", ""Bamberg"", ""Bamberg""]","""https://de.wikipedia.org/wiki/Bamberg""",49.89166667,77179
+12.54444444,"""Glauchau""","[""Gro\u00dfe Kreisstadt Glauchau"", ""Glauchau"", ""Glauchau""]","""https://de.wikipedia.org/wiki/Glauchau""",50.82333333,22718
+7.76888889,"""Kaiserslautern""","[""Kaiserslautern"", ""Kaiserslautern""]","""https://de.wikipedia.org/wiki/Kaiserslautern""",49.44472222,99684
+7.00916667,"""Alfter""","[""Alfter"", ""Alfter""]","""https://de.wikipedia.org/wiki/Alfter""",50.73555556,23527
+8.68222222,"""Frankfurt am Main""","[""FFM"", ""Frankfurt"", ""Frankfurt (Main)"", ""Frankfurt/Main"", ""Frankfurt am Main"", ""Frankfurt_am_Main""]","""https://de.wikipedia.org/wiki/Frankfurt_am_Main""",50.11055556,746878
+9.47916667,"""Friedrichshafen""","[""Friedrichshafen"", ""Friedrichshafen""]","""https://de.wikipedia.org/wiki/Friedrichshafen""",47.65416667,60088
+7.00666667,"""Ahaus""","[""Ahaus"", ""Ahaus""]","""https://de.wikipedia.org/wiki/Ahaus""",52.07555556,39185
+7.80888889,"""Kehl""","[""Kehl am Rhein"", ""Kehl"", ""Kehl""]","""https://de.wikipedia.org/wiki/Kehl""",48.57111111,35695
+8.49166667,"""Villingen-Schwenningen""","[""Villingen-Schwenningen"", ""Villingen-Schwenningen""]","""https://de.wikipedia.org/wiki/Villingen-Schwenningen""",48.05694444,84557
+9.43055556,"""Backnang""","[""Backnang"", ""Backnang""]","""https://de.wikipedia.org/wiki/Backnang""",48.94638889,36893
+6.78277778,"""D\u00fcsseldorf""","[""D\u00fcsseldorf"", ""D%C3%BCsseldorf""]","""https://de.wikipedia.org/wiki/D%C3%BCsseldorf""",51.22555556,617280
+7.53333333,"""Wiehl""","[""Wiehl, Oberbergischer Kreis"", ""Wiehl <Oberbergischer Kreis>"", ""Wiehl"", ""Wiehl""]","""https://de.wikipedia.org/wiki/Wiehl""",50.95,25152
+9.51638889,"""Itzehoe""","[""Itzehoe"", ""Itzehoe""]","""https://de.wikipedia.org/wiki/Itzehoe""",53.925,31848
+8.92895833,"""Gro\u00df-Umstadt""","[""Gro\u00df-Umstadt"", ""Gro%C3%9F-Umstadt""]","""https://de.wikipedia.org/wiki/Gro%C3%9F-Umstadt""",49.86833333,21104
+7.15555556,"""Troisdorf""","[""Troisdorf"", ""Troisdorf""]","""https://de.wikipedia.org/wiki/Troisdorf""",50.81611111,74870
+11.37388889,"""Gauting""","[""Bratananium"", ""Gauting"", ""Gauting""]","""https://de.wikipedia.org/wiki/Gauting""",48.06777778,20556
+9.00277778,"""Sindelfingen""","[""Sindelfingen"", ""Sindelfingen""]","""https://de.wikipedia.org/wiki/Sindelfingen""",48.71333333,64599
+12.15222222,"""Landshut""","[""Landshut, St"", ""Landshut"", ""Landshut""]","""https://de.wikipedia.org/wiki/Landshut""",48.53722222,71193
+7.63833333,"""Meinerzhagen""","[""Meinerzhagen"", ""Meinerzhagen""]","""https://de.wikipedia.org/wiki/Meinerzhagen""",51.10722222,20406
+6.67777778,"""Meerbusch""","[""Meerbusch"", ""Meerbusch""]","""https://de.wikipedia.org/wiki/Meerbusch""",51.26083333,55548
+8.62277778,"""Bensheim""","[""Bensheim"", ""Bensheim""]","""https://de.wikipedia.org/wiki/Bensheim""",49.68111111,40326
+8.82805556,"""R\u00f6dermark""","[""Waldacker"", ""R\u00f6dermark-Ober Roden"", ""R\u00f6dermark"", ""R%C3%B6dermark""]","""https://de.wikipedia.org/wiki/R%C3%B6dermark""",49.9775,27840
+11.545759,"""Lutherstadt Eisleben""","[""Eisleben"", ""Lutherstadt Eisleben"", ""Lutherstadt_Eisleben""]","""https://de.wikipedia.org/wiki/Lutherstadt_Eisleben""",51.528072,23651
+6.53333333,"""Kamp-Lintfort""","[""Kamp-Lintfort"", ""Kamp-Lintfort""]","""https://de.wikipedia.org/wiki/Kamp-Lintfort""",51.5,37346
+7.10055556,"""Gelsenkirchen""","[""Gelsenkirchen"", ""Gelsenkirchen""]","""https://de.wikipedia.org/wiki/Gelsenkirchen""",51.51111111,260305
+10.239242,"""Ahrensburg""","[""Ahrensburg"", ""Ahrensburg""]","""https://de.wikipedia.org/wiki/Ahrensburg""",53.673417,33305
+8.57803889,"""Bremerhaven""","[""Bremerhaven"", ""Bremerhaven""]","""https://de.wikipedia.org/wiki/Bremerhaven""",53.54193889,113026
+6.95,"""Rheinbach""","[""Rheinbach"", ""Rheinbach""]","""https://de.wikipedia.org/wiki/Rheinbach""",50.63333333,27124
+9.97694444,"""Lehrte""","[""Lehrte"", ""Lehrte""]","""https://de.wikipedia.org/wiki/Lehrte""",52.3725,43932
+7.07055556,"""Nordhorn""","[""Nordhorn"", ""Nordhorn""]","""https://de.wikipedia.org/wiki/Nordhorn""",52.43611111,53278
+,"""Oldenburg (Oldenburg)""","[""Oldenburg_(Oldenburg)""]","""https://de.wikipedia.org/wiki/Oldenburg_(Oldenburg)""",,167081
+6.2425,"""Emmerich am Rhein""","[""Emmerich"", ""Emmerich am Rhein"", ""Emmerich_am_Rhein""]","""https://de.wikipedia.org/wiki/Emmerich_am_Rhein""",51.83027778,30845
+10.83277778,"""Neus\u00e4\u00df""","[""Neus\u00e4ss"", ""Neus\u00e4\u00df"", ""Neus%C3%A4%C3%9F""]","""https://de.wikipedia.org/wiki/Neus%C3%A4%C3%9F""",48.39305556,22038
+9.98722222,"""Ulm""","[""Ulm (Donau)"", ""Ulm a. d. Donau"", ""Ulm an der Donau"", ""Ulm/Donau"", ""Ulm"", ""Ulm""]","""https://de.wikipedia.org/wiki/Ulm""",48.40083333,125596
+8.84,"""Singen (Hohentwiel)""","[""Singen"", ""Singen am Hohentwiel"", ""Singen/Hohentwiel"", ""Singen (Hohentwiel)"", ""Singen_(Hohentwiel)""]","""https://de.wikipedia.org/wiki/Singen_(Hohentwiel)""",47.76277778,47716
+12.15,"""Weiden in der Oberpfalz""","[""Weiden"", ""Weiden (Oberpfalz)"", ""Weiden i.d.OPf."", ""Weiden i.d.OPf., St"", ""Weiden/Oberpfalz"", ""Weiden in der Oberpfalz"", ""Weiden_in_der_Oberpfalz""]","""https://de.wikipedia.org/wiki/Weiden_in_der_Oberpfalz""",49.66666667,42543
+13.22805556,"""Kleinmachnow""","[""Kleinmachnow"", ""Kleinmachnow""]","""https://de.wikipedia.org/wiki/Kleinmachnow""",52.41,20608
+11.17944444,"""Neuburg an der Donau""","[""Leopoldineninsel"", ""Neuburg a.d.Donau"", ""Neuburg a.d. Donau"", ""Neuburg/Donau"", ""Neuburg"", ""Neuburg (Donau)"", ""Neuburg a. d. Donau"", ""Neuburg an der Donau"", ""Neuburg_an_der_Donau""]","""https://de.wikipedia.org/wiki/Neuburg_an_der_Donau""",48.73444444,29608
+6.96465,"""Dorsten""","[""Dorsten"", ""Dorsten""]","""https://de.wikipedia.org/wiki/Dorsten""",51.6604,75252
+11.27722222,"""Lauf an der Pegnitz""","[""Lauf a.d.Pegnitz"", ""Lauf"", ""Lauf/Pegnitz"", ""Lauf (Pegnitz)"", ""Lauf an der Pegnitz"", ""Lauf_an_der_Pegnitz""]","""https://de.wikipedia.org/wiki/Lauf_an_der_Pegnitz""",49.51027778,26571
+12.56305556,"""Brandenburg an der Havel""","[""Brandenburg"", ""Brandenburg an der Havel"", ""Brandenburg_an_der_Havel""]","""https://de.wikipedia.org/wiki/Brandenburg_an_der_Havel""",52.40888889,71886
+7.1675,"""Coesfeld""","[""Coesfeld"", ""Coesfeld""]","""https://de.wikipedia.org/wiki/Coesfeld""",51.94583333,36302
+7.35611111,"""Ennepetal""","[""Ennepetal"", ""Ennepetal""]","""https://de.wikipedia.org/wiki/Ennepetal""",51.2975,29929
+11.97,"""Halle (Saale)""","[""Halle"", ""Halle a. d. Saale"", ""Halle an der Saale"", ""Halle/Saale"", ""Halle (Saale)"", ""Halle_(Saale)""]","""https://de.wikipedia.org/wiki/Halle_(Saale)""",51.48277778,239173
+10.889317,"""K\u00f6nigsbrunn""","[""Lechaum\u00fchle"", ""Neuhaus"", ""Lechau"", ""Fohlenhof"", ""K\u00f6nigsbrunn"", ""K%C3%B6nigsbrunn""]","""https://de.wikipedia.org/wiki/K%C3%B6nigsbrunn""",48.269785,27850
+7.03333333,"""Niederkassel""","[""Niederkassel"", ""Niederkassel""]","""https://de.wikipedia.org/wiki/Niederkassel""",50.81666667,38057
+6.3325,"""Geldern""","[""Geldern"", ""Geldern""]","""https://de.wikipedia.org/wiki/Geldern""",51.51972222,33819
+8.75080556,"""Geestland""","[""Geestland"", ""Geestland""]","""https://de.wikipedia.org/wiki/Geestland""",53.63125,30873
+9.25861111,"""Ostfildern""","[""Ostfildern"", ""Ostfildern""]","""https://de.wikipedia.org/wiki/Ostfildern""",48.72888889,39205
+7.78092778,"""Wittmund""","[""Wittmund"", ""Wittmund""]","""https://de.wikipedia.org/wiki/Wittmund""",53.57485833,20363
+9.71666667,"""Wedemark""","[""Wedemark"", ""Wedemark""]","""https://de.wikipedia.org/wiki/Wedemark""",52.53333333,29599
+9.01527778,"""B\u00f6blingen""","[""B\u00f6blingen"", ""B%C3%B6blingen""]","""https://de.wikipedia.org/wiki/B%C3%B6blingen""",48.68555556,50035
+,"""Zerbst/Anhalt""","[""Anhalt"", ""Anhalt""]","""https://de.wikipedia.org/wiki/Zerbst/Anhalt""",,21702
+9.09333333,"""Heide (Holstein)""","[""Heide-West"", ""S\u00fcderholm-Bennewohld"", ""R\u00fcsdorf"", ""S\u00fcderholm"", ""Heide i. H."", ""Bennewold"", ""Bennewohld"", ""Heide-Ost"", ""De Heid"", ""Heide (Holstein)"", ""Heide"", ""Heide_(Holstein)""]","""https://de.wikipedia.org/wiki/Heide_(Holstein)""",54.19611111,21699
+7.8525,"""Lengerich (Westfalen)""","[""Lengerich (Westfalen)"", ""Lengerich/Westfalen"", ""Lengerich"", ""Lengerich_(Westfalen)""]","""https://de.wikipedia.org/wiki/Lengerich_(Westfalen)""",52.18972222,22626
+7.2,"""Recklinghausen""","[""Recklinghausen"", ""Recklinghausen""]","""https://de.wikipedia.org/wiki/Recklinghausen""",51.61666667,113360
+9.75194444,"""Bad Waldsee""","[""Arisheim"", ""Haisterkirch"", ""Michelwinnaden"", ""Heurenbach"", ""Mittelurbach"", ""Gaisbeuren"", ""Steinach"", ""Waldsee"", ""Bad Waldsee"", ""Bad_Waldsee""]","""https://de.wikipedia.org/wiki/Bad_Waldsee""",47.92111111,20294
+6.56666667,"""Elsdorf (Rheinland)""","[""Elsdorf (Rheinland)"", ""Elsdorf <Erftkreis>"", ""Elsdorf/Rheinland"", ""Elsdorf"", ""Elsdorf_(Rheinland)""]","""https://de.wikipedia.org/wiki/Elsdorf_(Rheinland)""",50.93333333,21539
+12.3425,"""Delitzsch""","[""Gro\u00dfe Kreisstadt Delitzsch"", ""Delitzsch"", ""Delitzsch""]","""https://de.wikipedia.org/wiki/Delitzsch""",51.52638889,24794
+10.96666667,"""Coburg""","[""Coburg, St"", ""Coburg"", ""Coburg""]","""https://de.wikipedia.org/wiki/Coburg""",50.26666667,41236
+6.18333333,"""Baesweiler""","[""Baesweiler"", ""Baesweiler""]","""https://de.wikipedia.org/wiki/Baesweiler""",50.9,26996
+13.65916667,"""Radebeul""","[""Gro\u00dfe Kreisstadt Radebeul"", ""Radebeul"", ""Radebeul""]","""https://de.wikipedia.org/wiki/Radebeul""",51.10583333,33954
+8.87306,"""Korbach""","[""Korbach"", ""Korbach""]","""https://de.wikipedia.org/wiki/Korbach""",51.27194,23631
+8.64180556,"""Friedrichsdorf""","[""Friedrichsdorf im Taunus"", ""Friedrichsdorf"", ""Friedrichsdorf""]","""https://de.wikipedia.org/wiki/Friedrichsdorf""",50.256875,25268
+6.92277778,"""Bottrop""","[""Bottrop"", ""Bottrop""]","""https://de.wikipedia.org/wiki/Bottrop""",51.52472222,117364
+10.13055556,"""Ellwangen (Jagst)""","[""Ellwangen"", ""Ellwangen an der Jagst"", ""Ellwangen/Jagst"", ""Ellwangen (Jagst)"", ""Ellwangen_(Jagst)""]","""https://de.wikipedia.org/wiki/Ellwangen_(Jagst)""",48.96111111,24339
+6.77583333,"""Erftstadt""","[""Erftstadt"", ""Erftstadt""]","""https://de.wikipedia.org/wiki/Erftstadt""",50.80916667,49647
+8.07888889,"""Oberkirch (Baden)""","[""Oberkirch"", ""Oberkirch_(Baden)""]","""https://de.wikipedia.org/wiki/Oberkirch_(Baden)""",48.53083333,20042
+7.60833333,"""Greven""","[""Greven"", ""Greven""]","""https://de.wikipedia.org/wiki/Greven""",52.09166667,37502
+6.82333333,"""Vreden""","[""Vreden"", ""Vreden""]","""https://de.wikipedia.org/wiki/Vreden""",52.03444444,22561
+11.06833333,"""Lichtenfels (Oberfranken)""","[""Lichtenfels/Oberfranken"", ""Lichtenfels (Oberfranken)"", ""Lichtenfels (Lichtenfels)"", ""Lichtenfels"", ""Lichtenfels_(Oberfranken)""]","""https://de.wikipedia.org/wiki/Lichtenfels_(Oberfranken)""",50.14694444,20158
+10.08055556,"""Celle""","[""Residenzstadt Celle"", ""Celle"", ""Celle""]","""https://de.wikipedia.org/wiki/Celle""",52.62611111,69706
+6.56416667,"""Krefeld""","[""Krefeld"", ""Krefeld""]","""https://de.wikipedia.org/wiki/Krefeld""",51.33694444,226699
+9.8433,"""Soltau""","[""Soltau"", ""Soltau""]","""https://de.wikipedia.org/wiki/Soltau""",52.9859,21257
+11.84833333,"""Amberg""","[""Amberg (Oberpfalz)"", ""Amberg, St"", ""Amberg/Oberpfalz"", ""Amberg"", ""Amberg""]","""https://de.wikipedia.org/wiki/Amberg""",49.44444444,42248
+10.56222222,"""Bad Harzburg""","[""Harzburg"", ""Bad Harzburg"", ""Bad_Harzburg""]","""https://de.wikipedia.org/wiki/Bad_Harzburg""",51.88111111,22017
+11.51277778,"""Apolda""","[""Apolda"", ""Apolda""]","""https://de.wikipedia.org/wiki/Apolda""",51.02277778,22163
+7.79527778,"""Menden (Sauerland)""","[""H\u00f6nnestadt"", ""Menden"", ""Menden/Sauerland"", ""Menden (Sauerland)"", ""Menden_(Sauerland)""]","""https://de.wikipedia.org/wiki/Menden_(Sauerland)""",51.43916667,53046
+7.48361111,"""Aurich""","[""Auerk"", ""Aurich"", ""Aurich""]","""https://de.wikipedia.org/wiki/Aurich""",53.47138889,41854
+6.85222222,"""Oberhausen""","[""Oberhausen (Rhld.)"", ""Stadt Oberhausen (Rheinland)"", ""Gro\u00df-Oberhausen (Rheinland)"", ""Oberhausen, Ruhr"", ""Oberhausen (Rheinland)"", ""Oberhausen"", ""Oberhausen""]","""https://de.wikipedia.org/wiki/Oberhausen""",51.47027778,211422
+10.20908056,"""Winsen (Luhe)""","[""Winsen"", ""Winsen an der Luhe"", ""Winsen/Luhe"", ""Winsen (Luhe)"", ""Winsen_(Luhe)""]","""https://de.wikipedia.org/wiki/Winsen_(Luhe)""",53.36514167,34635
+9.03416667,"""Achim (Landkreis Verden)""","[""Achim bei Bremen"", ""Achim"", ""Achim_(Landkreis_Verden)""]","""https://de.wikipedia.org/wiki/Achim_(Landkreis_Verden)""",53.01527778,31834
+7.4375,"""L\u00fcdinghausen""","[""L\u00fcdinghausen"", ""L%C3%BCdinghausen""]","""https://de.wikipedia.org/wiki/L%C3%BCdinghausen""",51.76777778,24550
+13.58777778,"""Bernau bei Berlin""","[""Bernau bei Berlin"", ""Bernau_bei_Berlin""]","""https://de.wikipedia.org/wiki/Bernau_bei_Berlin""",52.67916667,38194
+7.91638889,"""Werl""","[""Werl"", ""Werl""]","""https://de.wikipedia.org/wiki/Werl""",51.555,30782
+8.68833333,"""L\u00f6hne""","[""L\u00f6hne"", ""L%C3%B6hne""]","""https://de.wikipedia.org/wiki/L%C3%B6hne""",52.18972222,39867
+12.19972222,"""Greiz""","[""Greiz"", ""Greiz""]","""https://de.wikipedia.org/wiki/Greiz""",50.65472222,20517
+9.051147,"""Husum""","[""Die graue Stadt am Meer"", ""H\u00fcsem"", ""Kielsburg"", ""Osterhusum"", ""R\u00f6demis"", ""Husum"", ""Husum""]","""https://de.wikipedia.org/wiki/Husum""",54.477019,23274
+8.91666667,"""Minden""","[""Minden (Westf)"", ""Minden (Westfalen)"", ""Minden"", ""Minden""]","""https://de.wikipedia.org/wiki/Minden""",52.28333333,81698
+9.47367778,"""Stade""","[""Stade"", ""Stade""]","""https://de.wikipedia.org/wiki/Stade""",53.59901389,47330
+13.58333333,"""Coswig (Sachsen)""","[""Coswig (Sachsen)"", ""Coswig bei Dresden"", ""Coswig/Sachsen"", ""Gro\u00dfe Kreisstadt Coswig"", ""Coswig"", ""Coswig_(Sachsen)""]","""https://de.wikipedia.org/wiki/Coswig_(Sachsen)""",51.13333333,20899
+9.15833333,"""\u00dcberlingen""","[""Lippertsreute"", ""Iburinga"", ""Bambergen"", ""Nesselwangen"", ""H\u00f6dingen (\u00dcberlingen)"", ""Bonndorf (\u00dcberlingen)"", ""Spital zu \u00dcberlingen"", ""\u00dcberlinger Spital"", ""Goldbach (\u00dcberlingen)"", ""Aufkirch (\u00dcberlingen)"", ""Andelshofen"", ""\u00dcberlingen"", ""%C3%9Cberlingen""]","""https://de.wikipedia.org/wiki/%C3%9Cberlingen""",47.76666667,22636
+6.69138889,"""Neuss""","[""Neu\u00df"", ""Neuss"", ""Neuss""]","""https://de.wikipedia.org/wiki/Neuss""",51.19861111,153810
+9.08138889,"""Rinteln""","[""Todenmann"", ""Rinteln"", ""Rinteln""]","""https://de.wikipedia.org/wiki/Rinteln""",52.19055556,25596
+10.250318,"""Reinbek""","[""Reinbek bei Hamburg"", ""Reinbek"", ""Reinbek""]","""https://de.wikipedia.org/wiki/Reinbek""",53.510211,27409
+8.15,"""Neustadt an der Weinstra\u00dfe""","[""Neustadt"", ""Neustadt (Weinstr)"", ""Neustadt a. d. H."", ""Neustadt a. d. Hdt."", ""Neustadt a. d. Weinstr."", ""Neustadt a. d. W."", ""Neustadt a. d. Wstr."", ""Neustadt an der Haardt"", ""Neustadt/Weinstr."", ""Neustadt/Weinstra\u00dfe"", ""Neustadt an der Weinstra\u00dfe"", ""Neustadt_an_der_Weinstra%C3%9Fe""]","""https://de.wikipedia.org/wiki/Neustadt_an_der_Weinstra%C3%9Fe""",49.35,53353
+7.56777778,"""Gummersbach""","[""Gummersbach"", ""Gummersbach""]","""https://de.wikipedia.org/wiki/Gummersbach""",51.02694444,50497
+13.06361111,"""Neustrelitz""","[""Neustrelitz"", ""Neustrelitz""]","""https://de.wikipedia.org/wiki/Neustrelitz""",53.36472222,20135
+10.69333333,"""Suhl""","[""Suhl"", ""Suhl""]","""https://de.wikipedia.org/wiki/Suhl""",50.61083333,35166
+7.37611111,"""Lindlar""","[""Lindlar"", ""Lindlar""]","""https://de.wikipedia.org/wiki/Lindlar""",51.01944444,21513
+10.98333333,"""Friedberg (Bayern)""","[""Friedberg West"", ""Friedberg Innenstadt"", ""Friedberg/Bayern"", ""Friedberg/Hessen"", ""Friedberg (Bayern)"", ""Friedberg (Aichach-Friedberg)"", ""Friedberg"", ""Friedberg_(Bayern)""]","""https://de.wikipedia.org/wiki/Friedberg_(Bayern)""",48.35,29782
+6.75,"""Saarlouis""","[""Saarlouis"", ""Saarlouis""]","""https://de.wikipedia.org/wiki/Saarlouis""",49.31666667,34532
+9.2125,"""Filderstadt""","[""Filderstadt"", ""Filderstadt""]","""https://de.wikipedia.org/wiki/Filderstadt""",48.66166667,45807
+11.01055556,"""Helmstedt""","[""Helmstedt"", ""Helmstedt""]","""https://de.wikipedia.org/wiki/Helmstedt""",52.22805556,25803
+11.61,"""Unterhaching""","[""Unterhaching"", ""Unterhaching""]","""https://de.wikipedia.org/wiki/Unterhaching""",48.06583333,24864
+9.39777778,"""Winnenden""","[""Schelmenholz"", ""B\u00fcrg"", ""Birkmannsweiler"", ""Hertmannsweiler"", ""H\u00f6fen"", ""Winnental"", ""Baach"", ""Winnenden"", ""Winnenden""]","""https://de.wikipedia.org/wiki/Winnenden""",48.87638889,28351
+9.73861111,"""Hannover""","[""Hanover"", ""Hannover"", ""Hannover""]","""https://de.wikipedia.org/wiki/Hannover""",52.37444444,535061
+8.77555556,"""Dietzenbach""","[""Dietzenbach"", ""Dietzenbach""]","""https://de.wikipedia.org/wiki/Dietzenbach""",50.00861111,34055
+8.71,"""Heidelberg""","[""Heidelberg"", ""Heidelberg""]","""https://de.wikipedia.org/wiki/Heidelberg""",49.41222222,160601
+8.51666667,"""Verl""","[""\u00d6lbachstadt"", ""\u00d6lbachgemeinde"", ""Verl"", ""Verl""]","""https://de.wikipedia.org/wiki/Verl""",51.88305556,25356
+9.93555556,"""G\u00f6ttingen""","[""G\u00f6ttingen"", ""G%C3%B6ttingen""]","""https://de.wikipedia.org/wiki/G%C3%B6ttingen""",51.53388889,119529
+13.34277778,"""Freiberg""","[""Freiberg/Sachsen"", ""Freiberg"", ""Freiberg""]","""https://de.wikipedia.org/wiki/Freiberg""",50.91194444,41496
+9.14277778,"""Leinfelden-Echterdingen""","[""Leinfelden-Echterdingen"", ""Leinfelden-Echterdingen""]","""https://de.wikipedia.org/wiki/Leinfelden-Echterdingen""",48.69277778,39826
+8.46708333,"""Lampertheim""","[""Lampertheim"", ""Lampertheim""]","""https://de.wikipedia.org/wiki/Lampertheim""",49.59416667,32609
+7.05,"""Velbert""","[""Velbert"", ""Velbert""]","""https://de.wikipedia.org/wiki/Velbert""",51.33333333,82061
+8.91666667,"""Hanau""","[""Hanau"", ""Hanau""]","""https://de.wikipedia.org/wiki/Hanau""",50.13333333,96130
+6.62638889,"""Moers""","[""Moers"", ""Moers""]","""https://de.wikipedia.org/wiki/Moers""",51.45166667,103949
+10.41444444,"""L\u00fcneburg""","[""Hansestadt L\u00fcneburg"", ""L\u00fcmborg"", ""L\u00fcneburg"", ""L%C3%BCneburg""]","""https://de.wikipedia.org/wiki/L%C3%BCneburg""",53.2525,75192
+6.27875,"""Wegberg""","[""Wegberg"", ""Wegberg""]","""https://de.wikipedia.org/wiki/Wegberg""",51.14302778,27921
+8.44472222,"""Hofheim am Taunus""","[""Hofheim am Taunus"", ""Hofheim_am_Taunus""]","""https://de.wikipedia.org/wiki/Hofheim_am_Taunus""",50.08756944,39692
+10.62416667,"""Kaufbeuren""","[""Kaufbeuren, St"", ""Kaufbeuren"", ""Kaufbeuren""]","""https://de.wikipedia.org/wiki/Kaufbeuren""",47.88111111,43478
+8.4525,"""Kelkheim (Taunus)""","[""Kelkheim (Taunus)"", ""Kelkheim_(Taunus)""]","""https://de.wikipedia.org/wiki/Kelkheim_(Taunus)""",50.13798611,28829
+9.83222222,"""Eckernf\u00f6rde""","[""Egernf\u00f8rde"", ""Eckernf\u00f6rde"", ""Eckernf%C3%B6rde""]","""https://de.wikipedia.org/wiki/Eckernf%C3%B6rde""",54.47333333,21979
+6.46472222,"""T\u00f6nisvorst""","[""St. T\u00f6nis"", ""T\u00f6nisvorst"", ""T%C3%B6nisvorst""]","""https://de.wikipedia.org/wiki/T%C3%B6nisvorst""",51.31,29286
+8.662222,"""Butzbach""","[""Friedrich-Ludwig-Weidig-Stadt"", ""Friedrich-Ludwig-Weidig-Stadt Butzbach"", ""Butzbach"", ""Butzbach""]","""https://de.wikipedia.org/wiki/Butzbach""",50.436667,26016
+7.182655,"""R\u00f6srath""","[""R\u00f6srath"", ""R%C3%B6srath""]","""https://de.wikipedia.org/wiki/R%C3%B6srath""",50.901571,28666
+7.94833333,"""Schortens""","[""Schortens"", ""Schortens""]","""https://de.wikipedia.org/wiki/Schortens""",53.54027778,20451
+11.36666667,"""Germering""","[""Germering"", ""Germering""]","""https://de.wikipedia.org/wiki/Germering""",48.13333333,40285
+7.98694444,"""Bramsche""","[""Bramsche"", ""Bramsche""]","""https://de.wikipedia.org/wiki/Bramsche""",52.40472222,30992
+11.02916667,"""Erfurt""","[""Erfurt"", ""Erfurt""]","""https://de.wikipedia.org/wiki/Erfurt""",50.97805556,212988
+8.28527778,"""Schmallenberg""","[""Schmallenberg"", ""Schmallenberg""]","""https://de.wikipedia.org/wiki/Schmallenberg""",51.15361111,24965
+8.24944444,"""Waldshut-Tiengen""","[""Waldshut-Tiengen"", ""Waldshut-Tiengen""]","""https://de.wikipedia.org/wiki/Waldshut-Tiengen""",47.63055556,24149
+7.01666667,"""Meckenheim (Rheinland)""","[""Meckenheim, Rhein-Sieg-Kreis"", ""Meckenheim (Rheinland)"", ""Meckenheim/Rheinland"", ""Meckenheim"", ""Meckenheim_(Rheinland)""]","""https://de.wikipedia.org/wiki/Meckenheim_(Rheinland)""",50.63333333,24661
+8.35972222,"""Halle (Westf.)""","[""Halle (Westfalen)"", ""Halle/Westfalen"", ""Halle"", ""Halle (Westf.)"", ""Halle_(Westf.)""]","""https://de.wikipedia.org/wiki/Halle_(Westf.)""",52.06083333,21713
+9.99888889,"""Neu-Ulm""","[""Neu-Ulm"", ""Neu-Ulm""]","""https://de.wikipedia.org/wiki/Neu-Ulm""",48.39416667,57727
+8.88333333,"""Detmold""","[""Deppelt"", ""Deppeln"", ""Detmold"", ""Detmold""]","""https://de.wikipedia.org/wiki/Detmold""",51.93333333,74353
+6.21972222,"""H\u00fcckelhoven""","[""H\u00fcckelhoven"", ""H%C3%BCckelhoven""]","""https://de.wikipedia.org/wiki/H%C3%BCckelhoven""",51.06083333,39585
+9.55,"""Springe""","[""Springe"", ""Springe""]","""https://de.wikipedia.org/wiki/Springe""",52.21666667,28918
+7.13333333,"""Herten""","[""Herten"", ""Herten""]","""https://de.wikipedia.org/wiki/Herten""",51.6,61669
+8.645,"""Heppenheim (Bergstra\u00dfe)""","[""Heppenheim an der Bergstra\u00dfe"", ""Heppenheim"", ""Heppenheim (Bergstra\u00dfe)"", ""Heppenheim_(Bergstra%C3%9Fe)""]","""https://de.wikipedia.org/wiki/Heppenheim_(Bergstra%C3%9Fe)""",49.64152778,25755
+11.61666667,"""Magdeburg""","[""Magdeburg"", ""Magdeburg""]","""https://de.wikipedia.org/wiki/Magdeburg""",52.13333333,238478
+9.46055556,"""Barsinghausen""","[""Basche"", ""Barsinghausen"", ""Barsinghausen""]","""https://de.wikipedia.org/wiki/Barsinghausen""",52.30305556,33989
+7.46138889,"""Neuwied""","[""Neuwied"", ""Neuwied""]","""https://de.wikipedia.org/wiki/Neuwied""",50.42861111,64661
+9.0575,"""M\u00f6ssingen""","[""M\u00f6ssingen"", ""M%C3%B6ssingen""]","""https://de.wikipedia.org/wiki/M%C3%B6ssingen""",48.40638889,20416
+11.45555556,"""Kulmbach""","[""Wickenreuth"", ""G\u00f6ssmannsreuth"", ""Forstlahm"", ""Katschenreuth"", ""Petzmannsberg"", ""P\u00f6rbitsch"", ""L\u00f6sau"", ""Oberzettlitz"", ""Seidenhof"", ""Grafendobrach"", ""Lehenthal"", ""Donnersreuth"", ""Hitzmain"", ""Niederndobrach"", ""Mangersreuth"", ""Herlas"", ""Kulmbach"", ""Kulmbach""]","""https://de.wikipedia.org/wiki/Kulmbach""",50.10805556,26002
+11.73783,"""Sch\u00f6nebeck (Elbe)""","[""Sch\u00f6nebeck"", ""Sch\u00f6nebeck/Elbe"", ""Sch\u00f6nebeck (Elbe)"", ""Sch%C3%B6nebeck_(Elbe)""]","""https://de.wikipedia.org/wiki/Sch%C3%B6nebeck_(Elbe)""",52.02045,31038
+6.63715,"""Merzig""","[""Mercy"", ""Merzig"", ""Merzig""]","""https://de.wikipedia.org/wiki/Merzig""",49.44278,29818
+9.41833333,"""Baunatal""","[""Baunatal"", ""Baunatal""]","""https://de.wikipedia.org/wiki/Baunatal""",51.25888889,27704
+12.43333333,"""Altenburg""","[""Altenburg"", ""Altenburg""]","""https://de.wikipedia.org/wiki/Altenburg""",50.985,32374
+13.26666667,"""Ludwigsfelde""","[""Ludwigsfelde"", ""Ludwigsfelde""]","""https://de.wikipedia.org/wiki/Ludwigsfelde""",52.29972222,25665
+8.5525,"""Griesheim""","[""Zwiebelmarkt Griesheim"", ""Griesheim"", ""Griesheim""]","""https://de.wikipedia.org/wiki/Griesheim""",49.85944444,27258
+11.33555556,"""Olching""","[""Olching"", ""Olching""]","""https://de.wikipedia.org/wiki/Olching""",48.20861111,27592
+7.43333333,"""Rheine""","[""Rheine"", ""Rheine""]","""https://de.wikipedia.org/wiki/Rheine""",52.28333333,76018
+8.24083333,"""Baden-Baden""","[""Baden"", ""Baden-Baden"", ""Baden-Baden""]","""https://de.wikipedia.org/wiki/Baden-Baden""",48.76194444,54718
+8.75,"""Bad Nauheim""","[""Bad Nauheim"", ""Bad_Nauheim""]","""https://de.wikipedia.org/wiki/Bad_Nauheim""",50.36666667,32102
+11.15083333,"""Quedlinburg""","[""Welterbestadt Quedlinburg"", ""Quedlinburg"", ""Quedlinburg""]","""https://de.wikipedia.org/wiki/Quedlinburg""",51.79277778,24216
+,"""Sankt Ingbert""","[""Sankt_Ingbert""]","""https://de.wikipedia.org/wiki/Sankt_Ingbert""",,35951
+8.69888889,"""Pforzheim""","[""Goldstadt"", ""PF"", ""Pforte zum Schwarzwald"", ""Pforzheim"", ""Pforzheim""]","""https://de.wikipedia.org/wiki/Pforzheim""",48.89111111,124289
+14.63111111,"""Eisenh\u00fcttenstadt""","[""Eisenh\u00fcttenstadt"", ""Eisenh%C3%BCttenstadt""]","""https://de.wikipedia.org/wiki/Eisenh%C3%BCttenstadt""",52.14555556,25057
+8.73527778,"""Bad Vilbel""","[""Vilbel"", ""Bad Vilbel"", ""Bad_Vilbel""]","""https://de.wikipedia.org/wiki/Bad_Vilbel""",50.1775,33745
+14.00555556,"""Senftenberg""","[""Z\u0142y Komorow"", ""Zly Komorow"", ""Senftenberg"", ""Senftenberg""]","""https://de.wikipedia.org/wiki/Senftenberg""",51.51888889,24558
+11.35,"""Puchheim""","[""Puchheim (F\u00fcrstenfeldbruck)"", ""Puehheim"", ""Puchheim"", ""Puchheim""]","""https://de.wikipedia.org/wiki/Puchheim""",48.15,21396
+8.02444444,"""Siegen""","[""Siegen"", ""Siegen""]","""https://de.wikipedia.org/wiki/Siegen""",50.87444444,102337
+9.993333,"""Hamburg""","[""DE-HH"", ""Freie und Hansestadt Hamburg"", ""Hansestadt Hamburg"", ""HH"", ""Hamburg"", ""Hamburg""]","""https://de.wikipedia.org/wiki/Hamburg""",53.550556,1830584
+6.11944444,"""Geilenkirchen""","[""Geilenkirchen"", ""Geilenkirchen""]","""https://de.wikipedia.org/wiki/Geilenkirchen""",50.96527778,27106
+10.23361111,"""Peine""","[""Peine"", ""Peine""]","""https://de.wikipedia.org/wiki/Peine""",52.32027778,49901
+8.25583333,"""Ha\u00dfloch""","[""Hassloch"", ""Ha\u00dfloch"", ""Ha%C3%9Floch""]","""https://de.wikipedia.org/wiki/Ha%C3%9Floch""",49.36305556,20433
+8.84819444,"""Obertshausen""","[""Hausen bei Offenbach"", ""Obertshausen"", ""Obertshausen""]","""https://de.wikipedia.org/wiki/Obertshausen""",50.07152778,24722
+8.23305556,"""Harsewinkel""","[""Harsewinkel"", ""Harsewinkel""]","""https://de.wikipedia.org/wiki/Harsewinkel""",51.96666667,25012
+6.9,"""Br\u00fchl (Rheinland)""","[""Br\u00fchl, Rhein-Erft-Kreis"", ""Br\u00fchl (Rheinland)"", ""Br\u00fchl <Erftkreis>"", ""Br\u00fchl <Rhein-Erft-Kreis>"", ""Br\u00fchl"", ""Br%C3%BChl_(Rheinland)""]","""https://de.wikipedia.org/wiki/Br%C3%BChl_(Rheinland)""",50.83333333,44144
+7.29333333,"""Schwelm""","[""Schwelm i. W."", ""Schwelm"", ""Schwelm""]","""https://de.wikipedia.org/wiki/Schwelm""",51.28416667,28478
+14.58972222,"""Schwedt/Oder""","[""Oder"", ""Oder""]","""https://de.wikipedia.org/wiki/Schwedt/Oder""",53.60166667,30075
+6.97972222,"""Wesseling""","[""Wesseling"", ""Wesseling""]","""https://de.wikipedia.org/wiki/Wesseling""",50.82388889,35955
+8.79333333,"""Lage (Lippe)""","[""Lage (Lippe)"", ""Stadt Lage"", ""Lage"", ""Lage_(Lippe)""]","""https://de.wikipedia.org/wiki/Lage_(Lippe)""",51.99277778,35166
+9.14666667,"""Mosbach""","[""Mosbach"", ""Mosbach""]","""https://de.wikipedia.org/wiki/Mosbach""",49.35222222,23288
+10.43,"""Goslar""","[""Goslar"", ""Goslar""]","""https://de.wikipedia.org/wiki/Goslar""",51.90722222,51128
+9.053363,"""T\u00fcbingen""","[""T\u00fcbingen"", ""T%C3%BCbingen""]","""https://de.wikipedia.org/wiki/T%C3%BCbingen""",48.520144,89447
+9.7375,"""Schw\u00e4bisch Hall""","[""Hall"", ""Hall am Kocher"", ""Schw\u00e4bisch Hall"", ""Schw%C3%A4bisch_Hall""]","""https://de.wikipedia.org/wiki/Schw%C3%A4bisch_Hall""",49.11222222,39818
+10.37344,"""Bad Oldesloe""","[""Oldesloe"", ""Wolkenwehe"", ""Bad Oldesloe"", ""Bad_Oldesloe""]","""https://de.wikipedia.org/wiki/Bad_Oldesloe""",53.80982,24964
+6.915,"""Stadtlohn""","[""Stadtlohn"", ""Stadtlohn""]","""https://de.wikipedia.org/wiki/Stadtlohn""",51.9925,20367
+11.57555556,"""M\u00fcnchen""","[""Minga"", ""M\u00fcnchen, St"", ""M\u00fcnchen"", ""M%C3%BCnchen""]","""https://de.wikipedia.org/wiki/M%C3%BCnchen""",48.13722222,1456039
+7.19944444,"""Remscheid""","[""Remscheid"", ""Remscheid""]","""https://de.wikipedia.org/wiki/Remscheid""",51.17833333,110584
+10.09361111,"""Aalen""","[""Aalen"", ""Aalen""]","""https://de.wikipedia.org/wiki/Aalen""",48.83722222,67849
+12.12888889,"""Rosenheim""","[""Rosenheim, St"", ""Rosenheim"", ""Rosenheim""]","""https://de.wikipedia.org/wiki/Rosenheim""",47.85611111,63080
+8.66972222,"""Gie\u00dfen""","[""Gie\u00dfen"", ""Gie%C3%9Fen""]","""https://de.wikipedia.org/wiki/Gie%C3%9Fen""",50.58722222,87343
+8.72555556,"""Nagold""","[""Nagold"", ""Nagold""]","""https://de.wikipedia.org/wiki/Nagold""",48.55194444,22209
+11.32972222,"""Weimar""","[""Weimar"", ""Weimar""]","""https://de.wikipedia.org/wiki/Weimar""",50.97944444,64426
+6.78583333,"""Euskirchen""","[""Euskirchen"", ""Euskirchen""]","""https://de.wikipedia.org/wiki/Euskirchen""",50.66083333,57715
+7.63333333,"""Bergkamen""","[""Bergkamen"", ""Bergkamen""]","""https://de.wikipedia.org/wiki/Bergkamen""",51.61666667,48829
+9.95,"""Hildesheim""","[""Hildesheim"", ""Hildesheim""]","""https://de.wikipedia.org/wiki/Hildesheim""",52.15,101744
+6.68333333,"""Voerde (Niederrhein)""","[""Voerde"", ""Voerde (Niederrhein)"", ""Voerde_(Niederrhein)""]","""https://de.wikipedia.org/wiki/Voerde_(Niederrhein)""",51.6,36268
+6.96638889,"""Heiligenhaus""","[""Heiligenhaus"", ""Heiligenhaus""]","""https://de.wikipedia.org/wiki/Heiligenhaus""",51.32583333,26132
+7.60805556,"""Pirmasens""","[""Pirmasens"", ""Pirmasens""]","""https://de.wikipedia.org/wiki/Pirmasens""",49.19722222,40632
+7.81711667,"""Hamm""","[""Hamm (Westf)"", ""Hamm (Westfalen)"", ""Hamm"", ""Hamm""]","""https://de.wikipedia.org/wiki/Hamm""",51.68106944,179185
+8.35305556,"""Warstein""","[""Warstein"", ""Warstein""]","""https://de.wikipedia.org/wiki/Warstein""",51.44166667,24898
+6.5625,"""Bedburg""","[""Bedburg"", ""Bedburg""]","""https://de.wikipedia.org/wiki/Bedburg""",51,23531
+11.66666667,"""Ottobrunn""","[""Ottobrunn"", ""Ottobrunn""]","""https://de.wikipedia.org/wiki/Ottobrunn""",48.06666667,21503
+12.13833333,"""Zeitz""","[""Zeitz"", ""Zeitz""]","""https://de.wikipedia.org/wiki/Zeitz""",51.04777778,28381
+7.03333333,"""W\u00fclfrath""","[""W\u00fclfrath"", ""W%C3%BClfrath""]","""https://de.wikipedia.org/wiki/W%C3%BClfrath""",51.28333333,21196
+9.14774722,"""Aschaffenburg""","[""Aschaffenburg, St"", ""Aschaffenburg"", ""Aschaffenburg""]","""https://de.wikipedia.org/wiki/Aschaffenburg""",49.97670278,69928
+9.88277778,"""Isernhagen""","[""Gemeinde Isernhagen"", ""Isernhagen"", ""Isernhagen""]","""https://de.wikipedia.org/wiki/Isernhagen""",52.44583333,24219
+11.43416667,"""Dachau""","[""Dachau"", ""Dachau""]","""https://de.wikipedia.org/wiki/Dachau""",48.26027778,47255
+8.36083333,"""Worms""","[""Worms"", ""Worms""]","""https://de.wikipedia.org/wiki/Worms""",49.63305556,83081
+13.27055556,"""Teltow""","[""Teltow"", ""Teltow""]","""https://de.wikipedia.org/wiki/Teltow""",52.40222222,25761
+8.23861111,"""Lohne (Oldenburg)""","[""Lohne"", ""Lohne"", ""Lohne_(Oldenburg)""]","""https://de.wikipedia.org/wiki/Lohne_(Oldenburg)""",52.66666667,26509
+12.32472222,"""Bitterfeld-Wolfen""","[""Bitterfeld-Wolfen"", ""Bitterfeld-Wolfen""]","""https://de.wikipedia.org/wiki/Bitterfeld-Wolfen""",51.625,39103
+6.35833333,"""J\u00fclich""","[""J\u00fclich"", ""J%C3%BClich""]","""https://de.wikipedia.org/wiki/J%C3%BClich""",50.92222222,32505
+8.61048611,"""Bad Homburg vor der H\u00f6he""","[""Bad Homburg v. d. H\u00f6he"", ""Bad Homburg vor der H\u00f6he"", ""Bad_Homburg_vor_der_H%C3%B6he""]","""https://de.wikipedia.org/wiki/Bad_Homburg_vor_der_H%C3%B6he""",50.22923611,53884
+7.35611111,"""Steinfurt""","[""Steinfurt/Westfalen"", ""Steinfurt (Westfalen)"", ""Steinfurt"", ""Steinfurt""]","""https://de.wikipedia.org/wiki/Steinfurt""",52.13416667,33915
+8.1075,"""Wilhelmshaven""","[""Wilhelmshaven"", ""Wilhelmshaven""]","""https://de.wikipedia.org/wiki/Wilhelmshaven""",53.52194444,76316
+9.99,"""Neum\u00fcnster""","[""Neum\u00fcnster"", ""Neum%C3%BCnster""]","""https://de.wikipedia.org/wiki/Neum%C3%BCnster""",54.07138889,79335
+8.69111111,"""Leimen (Baden)""","[""Leimen (Baden)"", ""Leimen"", ""Leimen_(Baden)""]","""https://de.wikipedia.org/wiki/Leimen_(Baden)""",49.34805556,27055
+8.27111111,"""Mainz""","[""Mainz"", ""Mainz""]","""https://de.wikipedia.org/wiki/Mainz""",50,215110
+10.18111111,"""Memmingen""","[""Memmingen, St"", ""Tor zum Allg\u00e4u"", ""Memmingen"", ""Memmingen""]","""https://de.wikipedia.org/wiki/Memmingen""",47.98777778,43470
+6.24583333,"""Nettetal""","[""Nettetal"", ""Nettetal""]","""https://de.wikipedia.org/wiki/Nettetal""",51.32777778,42265
+12.13833333,"""Plauen""","[""Plauen"", ""Plauen""]","""https://de.wikipedia.org/wiki/Plauen""",50.495,65148
+7.16666667,"""Neunkirchen (Saar)""","[""Neunkirchen (Saar)"", ""Neunkirchen/Saar"", ""Neunkirchen"", ""Neunkirchen_(Saar)""]","""https://de.wikipedia.org/wiki/Neunkirchen_(Saar)""",49.35,46767
+11.98027778,"""K\u00f6then (Anhalt)""","[""K\u00f6then"", ""K\u00f6then (Anh.)"", ""C\u00f6then"", ""K\u00f6then/Anhalt"", ""K\u00f6then (Anhalt)"", ""K%C3%B6then_(Anhalt)""]","""https://de.wikipedia.org/wiki/K%C3%B6then_(Anhalt)""",51.75027778,26157
+12.75,"""Limbach-Oberfrohna""","[""Gro\u00dfe Kreisstadt Limbach-Oberfrohna"", ""Limbach-Oberfrohna"", ""Limbach-Oberfrohna""]","""https://de.wikipedia.org/wiki/Limbach-Oberfrohna""",50.86666667,24066
+9.79555556,"""Neu Wulmstorf""","[""Neuwulmsdorf"", ""Vosshusen"", ""Wulmstorf"", ""Neu Wulmstorf"", ""Neu_Wulmstorf""]","""https://de.wikipedia.org/wiki/Neu_Wulmstorf""",53.46277778,21159
+11.02083333,"""Schwabach""","[""Schwabach, St"", ""Schwabach"", ""Schwabach""]","""https://de.wikipedia.org/wiki/Schwabach""",49.32916667,40781
+7.24918056,"""Sprockh\u00f6vel""","[""Sprockh\u00f6vel"", ""Sprockh%C3%B6vel""]","""https://de.wikipedia.org/wiki/Sprockh%C3%B6vel""",51.36875556,24783
+9.1125,"""B\u00fcdingen""","[""B\u00fcdingen"", ""B%C3%BCdingen""]","""https://de.wikipedia.org/wiki/B%C3%BCdingen""",50.29083333,22043
+11.91888889,"""Hof (Saale)""","[""Hof (Saale)"", ""Hof, St"", ""Hof/Saale"", ""Hof"", ""Hof_(Saale)""]","""https://de.wikipedia.org/wiki/Hof_(Saale)""",50.32194444,45950
+13.73836,"""Dresden""","[""Drje\u017ed\u017aany"", ""Dresden"", ""Dresden""]","""https://de.wikipedia.org/wiki/Dresden""",51.049259,551072
+10.31666667,"""Kempten (Allg\u00e4u)""","[""Allg\u00e4u-Metropole"", ""Cambidanum"", ""Cambodunum"", ""Hauptstadt des Allg\u00e4us"", ""Illerstadt"", ""Kempten (Allg\u00e4u)"", ""Kempten (Allg\u00e4u), St"", ""Kempten"", ""Kempten_(Allg%C3%A4u)""]","""https://de.wikipedia.org/wiki/Kempten_(Allg%C3%A4u)""",47.73333333,68330
+6.8,"""Pulheim""","[""Pulheim"", ""Pulheim""]","""https://de.wikipedia.org/wiki/Pulheim""",51,53900
+8.755,"""Friedberg (Hessen)""","[""Friedberg"", ""Friedberg_(Hessen)""]","""https://de.wikipedia.org/wiki/Friedberg_(Hessen)""",50.33527778,28962
+8.42805556,"""Fl\u00f6rsheim am Main""","[""Fl\u00f6rsheim/Main"", ""Fl\u00f6rsheim am Main"", ""Fl%C3%B6rsheim_am_Main""]","""https://de.wikipedia.org/wiki/Fl%C3%B6rsheim_am_Main""",50.01166667,21260
+,"""F\u00fcrstenwalde/Spree""","[""Spree"", ""Spree""]","""https://de.wikipedia.org/wiki/F%C3%BCrstenwalde/Spree""",,32098
+7.765,"""Hemer""","[""Hemer"", ""Hemer""]","""https://de.wikipedia.org/wiki/Hemer""",51.38527778,34016
+8.41194444,"""R\u00fcsselsheim am Main""","[""R\u00fcsselsheim"", ""R\u00fcsselsheim am Main"", ""R%C3%BCsselsheim_am_Main""]","""https://de.wikipedia.org/wiki/R%C3%BCsselsheim_am_Main""",49.995,64922
+9.5,"""\u00d6hringen""","[""\u00d6hringen"", ""%C3%96hringen""]","""https://de.wikipedia.org/wiki/%C3%96hringen""",49.2,24010
+9.78861111,"""Biberach an der Ri\u00df""","[""Biberach"", ""Biberach/Ri\u00df"", ""Biberach an der Ri\u00df"", ""Biberach_an_der_Ri%C3%9F""]","""https://de.wikipedia.org/wiki/Biberach_an_der_Ri%C3%9F""",48.09805556,32801
+8.36666667,"""Germersheim""","[""Germersche"", ""Germersheim am Rhein"", ""Germersheim"", ""Germersheim""]","""https://de.wikipedia.org/wiki/Germersheim""",49.21666667,20691
+8.81861111,"""Tuttlingen""","[""Tuttlingen"", ""Tuttlingen""]","""https://de.wikipedia.org/wiki/Tuttlingen""",47.98444444,35456
+11.09111111,"""Roth""","[""Roth bei N\u00fcrnberg"", ""Roth am Sand"", ""Roth (Roth)"", ""Roth b. N\u00fcrnberg"", ""Roth"", ""Roth""]","""https://de.wikipedia.org/wiki/Roth""",49.24611111,25220
+8.75722222,"""Paderborn""","[""Paderborn"", ""Paderborn""]","""https://de.wikipedia.org/wiki/Paderborn""",51.71944444,149075
+8.4975,"""Riedstadt""","[""Riedstadt"", ""Riedstadt""]","""https://de.wikipedia.org/wiki/Riedstadt""",49.83583333,23591
+7.36083333,"""Zweibr\u00fccken""","[""Zweibr\u00fccken"", ""Zweibr%C3%BCcken""]","""https://de.wikipedia.org/wiki/Zweibr%C3%BCcken""",49.24944444,34270
+7,"""Saarbr\u00fccken""","[""Saarbr\u00fccken"", ""Saarbr%C3%BCcken""]","""https://de.wikipedia.org/wiki/Saarbr%C3%BCcken""",49.23333333,180966
+13.17333333,"""Luckenwalde""","[""Luckenwalde"", ""Luckenwalde""]","""https://de.wikipedia.org/wiki/Luckenwalde""",52.08972222,20674
+7.1725,"""St. Wendel""","[""St. Wendel an der Blies"", ""St. Wendeler Land"", ""Sankt Wendel"", ""St. Wendel"", ""St._Wendel""]","""https://de.wikipedia.org/wiki/St._Wendel""",49.46805556,25959
+7.48277778,"""Senden (Westfalen)""","[""Senden (Westfalen)"", ""Senden/Westfalen"", ""Senden"", ""Senden_(Westfalen)""]","""https://de.wikipedia.org/wiki/Senden_(Westfalen)""",51.85722222,20521
+8.43333333,"""Rietberg""","[""Rietberg"", ""Rietberg""]","""https://de.wikipedia.org/wiki/Rietberg""",51.8,29432
+8.41111111,"""Freudenstadt""","[""Freudenstadt"", ""Freudenstadt""]","""https://de.wikipedia.org/wiki/Freudenstadt""",48.46333333,23150
+7.09981389,"""Bonn""","[""Bonn"", ""Bonn""]","""https://de.wikipedia.org/wiki/Bonn""",50.73399167,325490
+9.01305556,"""Leonberg""","[""Leonberg"", ""Leonberg""]","""https://de.wikipedia.org/wiki/Leonberg""",48.80138889,48222
+8.56611111,"""M\u00f6rfelden-Walldorf""","[""M\u00f6rfelden-Walldorf"", ""M%C3%B6rfelden-Walldorf""]","""https://de.wikipedia.org/wiki/M%C3%B6rfelden-Walldorf""",49.98958333,34315
+8.26916667,"""Idstein""","[""Idstein"", ""Idstein""]","""https://de.wikipedia.org/wiki/Idstein""",50.22055556,24811
+6.89277778,"""Monheim am Rhein""","[""Monheim/Rhein"", ""Monheim am Rhein"", ""Monheim_am_Rhein""]","""https://de.wikipedia.org/wiki/Monheim_am_Rhein""",51.09166667,40598
+9.20694444,"""Stadthagen""","[""Probsthagen"", ""Stadthagen"", ""Stadthagen""]","""https://de.wikipedia.org/wiki/Stadthagen""",52.32472222,22158
+8.75055556,"""Bad Salzuflen""","[""Bad Salzuflen"", ""Bad_Salzuflen""]","""https://de.wikipedia.org/wiki/Bad_Salzuflen""",52.0875,53856
+8.83333333,"""Maintal""","[""Maintal"", ""Maintal""]","""https://de.wikipedia.org/wiki/Maintal""",50.15,38930
+9.1025,"""Bad Rappenau""","[""Rappenau"", ""Bad Rappenau"", ""Bad_Rappenau""]","""https://de.wikipedia.org/wiki/Bad_Rappenau""",49.23972222,21186
+8.63277778,"""Espelkamp""","[""Espelkamp"", ""Espelkamp""]","""https://de.wikipedia.org/wiki/Espelkamp""",52.37722222,24809
+6.95222222,"""Langenfeld (Rheinland)""","[""Langenfeld (Rheinland)"", ""Langenfeld (Rhld.)"", ""Langenfeld/Rheinland"", ""Langenfeld"", ""Langenfeld_(Rheinland)""]","""https://de.wikipedia.org/wiki/Langenfeld_(Rheinland)""",51.11305556,58698
+14.98722222,"""G\u00f6rlitz""","[""G\u00f6rlitz"", ""G%C3%B6rlitz""]","""https://de.wikipedia.org/wiki/G%C3%B6rlitz""",51.15277778,56391
+8.59416667,"""Schwanewede""","[""Schwanewede"", ""Schwanewede""]","""https://de.wikipedia.org/wiki/Schwanewede""",53.22527778,20142
+10.53694444,"""Wolfenb\u00fcttel""","[""Wolfenb\u00fcttel"", ""Wolfenb%C3%BCttel""]","""https://de.wikipedia.org/wiki/Wolfenb%C3%BCttel""",52.16222222,52357
+7.96083333,"""Waldkirch""","[""Suggental"", ""Siensbach"", ""Buchholz"", ""Waldkirch"", ""Waldkirch""]","""https://de.wikipedia.org/wiki/Waldkirch""",48.09388889,21799
+11.50666667,"""Pfaffenhofen an der Ilm""","[""Pfaffenhofen a.d.Ilm"", ""Pfaffenhofen/Ilm"", ""Pfaffenhofen"", ""Pfaffenhofen (Ilm)"", ""Pfaffenhofen a. d. Ilm"", ""Pfaffenhofen a./Ilm"", ""Pfaffenhofen an der Ilm"", ""Pfaffenhofen_an_der_Ilm""]","""https://de.wikipedia.org/wiki/Pfaffenhofen_an_der_Ilm""",48.52972222,25781
+9.45111111,"""Kirchheim unter Teck""","[""Kirchheim unter Teck"", ""Kirchheim_unter_Teck""]","""https://de.wikipedia.org/wiki/Kirchheim_unter_Teck""",48.64833333,40446
+8,"""Lahr/Schwarzwald""","[""Schwarzwald"", ""Schwarzwald""]","""https://de.wikipedia.org/wiki/Lahr/Schwarzwald""",48,46156
+13.4775,"""Mei\u00dfen""","[""Gro\u00dfe Kreisstadt Mei\u00dfen"", ""Mei\u00dfen"", ""Mei%C3%9Fen""]","""https://de.wikipedia.org/wiki/Mei%C3%9Fen""",51.16361111,28061
+9.36,"""Hameln""","[""Hameln"", ""Hameln""]","""https://de.wikipedia.org/wiki/Hameln""",52.10305556,57228
+7.33333333,"""Homburg""","[""Homburg/Saar"", ""Homburg"", ""Homburg""]","""https://de.wikipedia.org/wiki/Homburg""",49.31666667,41934
+7.86694444,"""Bad Kreuznach""","[""Kreuznach"", ""Bad Kreuznach"", ""Bad_Kreuznach""]","""https://de.wikipedia.org/wiki/Bad_Kreuznach""",49.84694444,50484
+7.186689,"""Haltern am See""","[""Haltern"", ""Haltern am See"", ""Haltern_am_See""]","""https://de.wikipedia.org/wiki/Haltern_am_See""",51.743745,37977
+6.16666667,"""Alsdorf""","[""Alsdorf/Rheinland"", ""Alsdorf"", ""Alsdorf""]","""https://de.wikipedia.org/wiki/Alsdorf""",50.88333333,46891
+10.37472222,"""Geesthacht""","[""Besenhorst"", ""Geesthacht"", ""Geesthacht""]","""https://de.wikipedia.org/wiki/Geesthacht""",53.43805556,30407
+7.9,"""Attendorn""","[""Attendorn"", ""Attendorn""]","""https://de.wikipedia.org/wiki/Attendorn""",51.11666667,24335
+8.06666667,"""Limburg an der Lahn""","[""Limburg"", ""Limburg/Lahn"", ""Limburg an der Lahn"", ""Limburg_an_der_Lahn""]","""https://de.wikipedia.org/wiki/Limburg_an_der_Lahn""",50.38333333,34989
+8.2,"""Rastede""","[""Delfshausen"", ""Rastede"", ""Rastede""]","""https://de.wikipedia.org/wiki/Rastede""",53.25,22447
+11.81,"""Naumburg (Saale)""","[""Naumburg an der Saale"", ""Naumburg/Saale"", ""Naumburg (Saale)"", ""Naumburg_(Saale)""]","""https://de.wikipedia.org/wiki/Naumburg_(Saale)""",51.1525,32755
+8.24,"""Wiesbaden""","[""Wiesbaden"", ""Wiesbaden""]","""https://de.wikipedia.org/wiki/Wiesbaden""",50.0825,278654
+11.13055556,"""Aichach""","[""Aichach"", ""Aichach""]","""https://de.wikipedia.org/wiki/Aichach""",48.46277778,21169
+13.45222222,"""Wandlitz""","[""Wandlitz"", ""Wandlitz""]","""https://de.wikipedia.org/wiki/Wandlitz""",52.75333333,22585
+9.8,"""Laatzen""","[""Laatzen"", ""Laatzen""]","""https://de.wikipedia.org/wiki/Laatzen""",52.31666667,41449
+9.875,"""Burgwedel""","[""Burgwedel"", ""Burgwedel""]","""https://de.wikipedia.org/wiki/Burgwedel""",52.51972222,20474
+8.56666667,"""Schwetzingen""","[""Schwetzingen"", ""Schwetzingen""]","""https://de.wikipedia.org/wiki/Schwetzingen""",49.38333333,21546
+8.69138889,"""Horb am Neckar""","[""Nordstetten"", ""Gr\u00fcnmettstetten"", ""Untertalheim"", ""Isenburg"", ""Die\u00dfen"", ""Ahldorf"", ""M\u00fchlen am Neckar"", ""Obertalheim"", ""Neckarhausen"", ""Altheim"", ""Dettlingen"", ""Horb"", ""Horb/Neckar"", ""Horb am Neckar"", ""Horb_am_Neckar""]","""https://de.wikipedia.org/wiki/Horb_am_Neckar""",48.445,24882
+9.14,"""Warburg""","[""Warburg"", ""Warburg""]","""https://de.wikipedia.org/wiki/Warburg""",51.48805556,23128
+7.895,"""Bingen am Rhein""","[""Bingen/Rhein"", ""Bingen"", ""Bingen am Rhein"", ""Bingen_am_Rhein""]","""https://de.wikipedia.org/wiki/Bingen_am_Rhein""",49.96694444,25441
+8.385,"""Schramberg""","[""Schramberg-Sulgen"", ""Waldm\u00f6ssingen"", ""Schramberg"", ""Schramberg""]","""https://de.wikipedia.org/wiki/Schramberg""",48.225,21125
+10.16111111,"""Kitzingen""","[""Kitzingen"", ""Kitzingen""]","""https://de.wikipedia.org/wiki/Kitzingen""",49.73694444,21346
+8.56555556,"""Nienburg/Weser""","[""Weser"", ""Weser""]","""https://de.wikipedia.org/wiki/Nienburg/Weser""",53.53555556,31602
+11.15,"""Salzwedel""","[""Hansestadt Salzwedel"", ""Salzwedel"", ""Salzwedel""]","""https://de.wikipedia.org/wiki/Salzwedel""",52.85,24002
+7.11333333,"""Bad Neuenahr-Ahrweiler""","[""Bad Neuenahr-Ahrweiler"", ""Bad_Neuenahr-Ahrweiler""]","""https://de.wikipedia.org/wiki/Bad_Neuenahr-Ahrweiler""",50.54472222,28048
+6.50166667,"""J\u00fcchen""","[""J\u00fcchen"", ""J%C3%BCchen""]","""https://de.wikipedia.org/wiki/J%C3%BCchen""",51.10111111,23261
+7.18483333,"""Hattingen""","[""Hattingen an der Ruhr"", ""Hattingen"", ""Hattingen""]","""https://de.wikipedia.org/wiki/Hattingen""",51.40105556,54628
+7.40166667,"""Andernach""","[""Andernach"", ""Andernach""]","""https://de.wikipedia.org/wiki/Andernach""",50.43972222,29860
+6.48333333,"""D\u00fcren""","[""D\u00fcren"", ""D%C3%BCren""]","""https://de.wikipedia.org/wiki/D%C3%BCren""",50.8,90502
+7.39861111,"""Wipperf\u00fcrth""","[""Hansestadt Wipperf\u00fcrth"", ""Wipperf\u00fcrth"", ""Wipperf%C3%BCrth""]","""https://de.wikipedia.org/wiki/Wipperf%C3%BCrth""",51.11694444,21202
+12.725,"""Grimma""","[""Gro\u00dfe Kreisstadt Grimma"", ""Grimma"", ""Grimma""]","""https://de.wikipedia.org/wiki/Grimma""",51.23833333,28153
+8.49972222,"""Bad Soden am Taunus""","[""Bad Soden am Taunus"", ""Bad_Soden_am_Taunus""]","""https://de.wikipedia.org/wiki/Bad_Soden_am_Taunus""",50.14243056,22563
+12.68333333,"""Waren (M\u00fcritz)""","[""Waren (M\u00fcritz)"", ""Waren_(M%C3%BCritz)""]","""https://de.wikipedia.org/wiki/Waren_(M%C3%BCritz)""",53.51666667,21210
+12.17638889,"""G\u00fcstrow""","[""G\u00fcstrow"", ""G%C3%BCstrow""]","""https://de.wikipedia.org/wiki/G%C3%BCstrow""",53.79388889,29429
+9.65361111,"""Elmshorn""","[""Elmshorn"", ""Elmshorn""]","""https://de.wikipedia.org/wiki/Elmshorn""",53.75472222,49618
+11.90755,"""Erding""","[""Erding"", ""Erding""]","""https://de.wikipedia.org/wiki/Erding""",48.30644722,36382
+13.625,"""K\u00f6nigs Wusterhausen""","[""K\u00f6nigs Wusterhausen"", ""K%C3%B6nigs_Wusterhausen""]","""https://de.wikipedia.org/wiki/K%C3%B6nigs_Wusterhausen""",52.29166667,36706
+8.76805556,"""Karben""","[""Karben"", ""Karben""]","""https://de.wikipedia.org/wiki/Karben""",50.23222222,22049
+13.09166667,"""Falkensee""","[""Falkensee"", ""Falkensee""]","""https://de.wikipedia.org/wiki/Falkensee""",52.55833333,43552
+6.98472222,"""Bornheim (Rheinland)""","[""Bornheim (Rheinland)"", ""Bornheim/Rheinland"", ""Bornheim"", ""Bornheim_(Rheinland)""]","""https://de.wikipedia.org/wiki/Bornheim_(Rheinland)""",50.76361111,48173
+8.37611111,"""Schifferstadt""","[""Schifferstadt"", ""Schifferstadt""]","""https://de.wikipedia.org/wiki/Schifferstadt""",49.38611111,20073
+8.968919,"""Petershagen""","[""Petershagen/Weser"", ""Petershagen Kr. Minden-L\u00fcbbecke"", ""Petershagen"", ""Petershagen""]","""https://de.wikipedia.org/wiki/Petershagen""",52.377946,25131
+9.56679,"""Schleswig""","[""Slesvig"", ""Sliasthorp"", ""Schleswig"", ""Schleswig""]","""https://de.wikipedia.org/wiki/Schleswig""",54.51494,25118
+9.39694444,"""Rotenburg (W\u00fcmme)""","[""Rotenburg Hannover"", ""Rotenburg in Hannover"", ""Rotenburg an der W\u00fcmme"", ""Rotenburg/W\u00fcmme"", ""Rotenburg"", ""Rotenburg_(W%C3%BCmme)""]","""https://de.wikipedia.org/wiki/Rotenburg_(W%C3%BCmme)""",53.10694444,21694
+7.16888889,"""Wuppertal""","[""Wuppertal"", ""Wuppertal""]","""https://de.wikipedia.org/wiki/Wuppertal""",51.25083333,353590
+8.10916667,"""Soest""","[""Soest"", ""Soest""]","""https://de.wikipedia.org/wiki/Soest""",51.57111111,47376
+12.08333333,"""Gera""","[""Gera"", ""Gera""]","""https://de.wikipedia.org/wiki/Gera""",50.88055556,94859
+8.4043,"""Karlsruhe""","[""Carlsruhe"", ""Karlsruhe"", ""Karlsruhe""]","""https://de.wikipedia.org/wiki/Karlsruhe""",49.014,311919
+8.48388889,"""Nordenham""","[""Schweewarden"", ""Roy Horn"", ""Heering a. d. Weser"", ""Nordenham"", ""Nordenham""]","""https://de.wikipedia.org/wiki/Nordenham""",53.48472222,26230
+6.95694444,"""K\u00f6ln""","[""K\u00f6lle"", ""K\u00f6ln"", ""K%C3%B6ln""]","""https://de.wikipedia.org/wiki/K%C3%B6ln""",50.93805556,1080394
+6.515,"""Korschenbroich""","[""Korschenbroich"", ""Korschenbroich""]","""https://de.wikipedia.org/wiki/Korschenbroich""",51.191,33063
+9.27583333,"""Fellbach""","[""Fellbach"", ""Fellbach""]","""https://de.wikipedia.org/wiki/Fellbach""",48.80861111,45783
+10.41555556,"""Meiningen""","[""Meiningen"", ""Meiningen""]","""https://de.wikipedia.org/wiki/Meiningen""",50.56777778,21126
+9.86666667,"""Einbeck""","[""Einbeck"", ""Einbeck""]","""https://de.wikipedia.org/wiki/Einbeck""",51.81666667,30925
+6.9925,"""Gladbeck""","[""Gladbeck"", ""Gladbeck""]","""https://de.wikipedia.org/wiki/Gladbeck""",51.57333333,75689
+7.45277778,"""Leer (Ostfriesland)""","[""Leer (Ostfriesland)"", ""Leer/Ostfriesland"", ""Leer"", ""Leer_(Ostfriesland)""]","""https://de.wikipedia.org/wiki/Leer_(Ostfriesland)""",53.23083333,34226
+7.27833333,"""D\u00fclmen""","[""D\u00fclmen"", ""D%C3%BClmen""]","""https://de.wikipedia.org/wiki/D%C3%BClmen""",51.83083333,46507
+8.35,"""Frankenthal (Pfalz)""","[""Frankenthal"", ""Frankenthal/Pfalz"", ""Frankenthal"", ""Frankenthal_(Pfalz)""]","""https://de.wikipedia.org/wiki/Frankenthal_(Pfalz)""",49.53333333,48417
+10.20388889,"""Uetze""","[""Uetze"", ""Uetze""]","""https://de.wikipedia.org/wiki/Uetze""",52.46611111,20260
+10.07055556,"""Crailsheim""","[""Crailsheim"", ""Crailsheim""]","""https://de.wikipedia.org/wiki/Crailsheim""",49.13472222,34130
+12.24694444,"""Dessau-Ro\u00dflau""","[""Dessau-Ro\u00dflau"", ""Dessau-Ro%C3%9Flau""]","""https://de.wikipedia.org/wiki/Dessau-Ro%C3%9Flau""",51.86055556,82111
+7.22388889,"""Herne""","[""Herne"", ""Herne""]","""https://de.wikipedia.org/wiki/Herne""",51.54194444,156490
+9.79305556,"""Pinneberg""","[""Pinneberg"", ""Pinneberg""]","""https://de.wikipedia.org/wiki/Pinneberg""",53.66333333,43155
+7.91666667,"""Westerstede""","[""Westerstede"", ""Westerstede""]","""https://de.wikipedia.org/wiki/Westerstede""",53.25,22540
+11.05805556,"""Forchheim""","[""Forchheim (Oberfranken)"", ""Forchheim/Oberfranken"", ""Forchheim"", ""Forchheim""]","""https://de.wikipedia.org/wiki/Forchheim""",49.71972222,32125
+10.68388889,"""L\u00fcbeck""","[""Freie und Hansestadt L\u00fcbeck"", ""Hansestadt L\u00fcbeck"", ""L\u00fcbeck"", ""L%C3%BCbeck""]","""https://de.wikipedia.org/wiki/L%C3%BCbeck""",53.86611111,216318
+7.28222222,"""Overath""","[""Overath"", ""Overath""]","""https://de.wikipedia.org/wiki/Overath""",50.93305556,27062
+9.65555556,"""Ronnenberg""","[""Ronnenberg"", ""Ronnenberg""]","""https://de.wikipedia.org/wiki/Ronnenberg""",52.31944444,24080
+9.27638889,"""Remseck am Neckar""","[""Aldingen"", ""Hochdorf am Neckar"", ""Hochdorf"", ""Neckargr\u00f6ningen"", ""Hochberg"", ""Remseck"", ""Neckarrems"", ""Remseck am Neckar"", ""Remseck_am_Neckar""]","""https://de.wikipedia.org/wiki/Remseck_am_Neckar""",48.86888889,26174
+8.88333333,"""Sinsheim""","[""Sinsheim"", ""Sinsheim""]","""https://de.wikipedia.org/wiki/Sinsheim""",49.25,35439
+7.63555169,"""Werne""","[""Werne"", ""Werne""]","""https://de.wikipedia.org/wiki/Werne""",51.66271349,29721
+9.33527778,"""N\u00fcrtingen""","[""N\u00fcrtingen"", ""N%C3%BCrtingen""]","""https://de.wikipedia.org/wiki/N%C3%BCrtingen""",48.62666667,41017
+10.28138889,"""G\u00fcnzburg""","[""G\u00fcnzburg"", ""G%C3%BCnzburg""]","""https://de.wikipedia.org/wiki/G%C3%BCnzburg""",48.45444444,20355
+11.17555556,"""Sonneberg""","[""Sonneberg"", ""Sonneberg""]","""https://de.wikipedia.org/wiki/Sonneberg""",50.3575,23756
+11.41666667,"""Schwerin""","[""Schwerin"", ""Schwerin""]","""https://de.wikipedia.org/wiki/Schwerin""",53.63333333,95797
+7.46682,"""Selm""","[""Selm"", ""Selm""]","""https://de.wikipedia.org/wiki/Selm""",51.69042,25811
+6.57,"""Dillingen/Saar""","[""Rote Saar"", ""Wei\u00dfe Saar"", ""Saartal"", ""Saar"", ""Saar""]","""https://de.wikipedia.org/wiki/Dillingen/Saar""",49.70138889,20143
+10.94638889,"""Arnstadt""","[""Arnstadt"", ""Arnstadt""]","""https://de.wikipedia.org/wiki/Arnstadt""",50.83416667,24409
+13.29388889,"""Riesa""","[""Gro\u00dfe Kreisstadt Riesa"", ""Riesa"", ""Riesa""]","""https://de.wikipedia.org/wiki/Riesa""",51.30805556,30392
+10.25277778,"""Duderstadt""","[""Anreischke"", ""Duderstadt"", ""Duderstadt""]","""https://de.wikipedia.org/wiki/Duderstadt""",51.515,20517
+9.42944444,"""Wunstorf""","[""Wunstorf"", ""Wunstorf""]","""https://de.wikipedia.org/wiki/Wunstorf""",52.4275,41532
+6.96666667,"""Mettmann""","[""Mettmann"", ""Mettmann""]","""https://de.wikipedia.org/wiki/Mettmann""",51.25,38789
+8.95638889,"""Vaihingen an der Enz""","[""Vaihingen/Enz"", ""Vaihingen an der Enz"", ""Vaihingen_an_der_Enz""]","""https://de.wikipedia.org/wiki/Vaihingen_an_der_Enz""",48.93277778,29308
+13.94,"""Pirna""","[""Gro\u00dfe Kreisstadt Pirna"", ""Pirna"", ""Pirna""]","""https://de.wikipedia.org/wiki/Pirna""",50.95777778,38276
+13.00222222,"""Annaberg-Buchholz""","[""Annaberg-Buchholz"", ""Annaberg-Buchholz""]","""https://de.wikipedia.org/wiki/Annaberg-Buchholz""",50.58,20000
+6.88305556,"""M\u00fclheim an der Ruhr""","[""M\u00fclheim/Ruhr"", ""M\u00fclheim an der Ruhr"", ""M%C3%BClheim_an_der_Ruhr""]","""https://de.wikipedia.org/wiki/M%C3%BClheim_an_der_Ruhr""",51.43305556,171265
+7.84388889,"""Olpe""","[""Olpe"", ""Olpe""]","""https://de.wikipedia.org/wiki/Olpe""",51.02944444,24459
+12.56666667,"""Straubing""","[""Straubing, St"", ""Straubing"", ""Straubing""]","""https://de.wikipedia.org/wiki/Straubing""",48.88333333,47586
+7.1322298,"""Wachtberg""","[""Wachtberg"", ""Wachtberg""]","""https://de.wikipedia.org/wiki/Wachtberg""",50.6242563,20251
+8.38333333,"""G\u00fctersloh""","[""G\u00fctersloh"", ""G%C3%BCtersloh""]","""https://de.wikipedia.org/wiki/G%C3%BCtersloh""",51.9,99315
+8.46305556,"""Mannheim""","[""Manheim"", ""Mannem"", ""Monnem"", ""Quadratestadt"", ""Mannheim"", ""Mannheim""]","""https://de.wikipedia.org/wiki/Mannheim""",49.48361111,307997
+8.56666667,"""Delbr\u00fcck""","[""Delbr\u00fcck"", ""Delbr%C3%BCck""]","""https://de.wikipedia.org/wiki/Delbr%C3%BCck""",51.76666667,31943
+8.20277778,"""Rastatt""","[""Rastatt"", ""Rastatt""]","""https://de.wikipedia.org/wiki/Rastatt""",48.85694444,49100
+13.11277778,"""D\u00f6beln""","[""D\u00f6beln"", ""D%C3%B6beln""]","""https://de.wikipedia.org/wiki/D%C3%B6beln""",51.11944444,23728
+8.97534722,"""Seligenstadt""","[""Seligenstadt"", ""Seligenstadt""]","""https://de.wikipedia.org/wiki/Seligenstadt""",50.04409722,21250
+8.35,"""Lippstadt""","[""Lippstadt"", ""Lippstadt""]","""https://de.wikipedia.org/wiki/Lippstadt""",51.66666667,67936
+7.39055556,"""Wetter (Ruhr)""","[""Wetter"", ""Wetter a. d. Ruhr"", ""Wetter an der Ruhr"", ""Wetter/Ruhr"", ""Wetter (Ruhr)"", ""Wetter_(Ruhr)""]","""https://de.wikipedia.org/wiki/Wetter_(Ruhr)""",51.38361111,27628
+10.99027778,"""F\u00fcrth""","[""F\u00fcrth (Bayern)"", ""F\u00fcrth, St"", ""F\u00fcrth"", ""F%C3%BCrth""]","""https://de.wikipedia.org/wiki/F%C3%BCrth""",49.47833333,126526
+,"""Eislingen/Fils""","[""FI-LS"", ""Fils"", ""Fils""]","""https://de.wikipedia.org/wiki/Eislingen/Fils""",,20795
+12.11,"""Schwandorf""","[""Schwandorf i. Bay."", ""Schwandorf"", ""Schwandorf""]","""https://de.wikipedia.org/wiki/Schwandorf""",49.32833333,28730
+8.15,"""Versmold""","[""Versmold"", ""Versmold""]","""https://de.wikipedia.org/wiki/Versmold""",52.04361111,21472
+8.68034722,"""Langen (Hessen)""","[""Langen"", ""Langen/Hessen"", ""Langen"", ""Langen_(Hessen)""]","""https://de.wikipedia.org/wiki/Langen_(Hessen)""",49.98930556,37527
+7.69555556,"""Iserlohn""","[""Iserlohn"", ""Iserlohn""]","""https://de.wikipedia.org/wiki/Iserlohn""",51.38111111,92928
+8.2848,"""Vechta""","[""Vechta"", ""Vechta""]","""https://de.wikipedia.org/wiki/Vechta""",52.7266,32201
+14.55083333,"""Frankfurt (Oder)""","[""Frankfurt"", ""Frankfurt an der Oder"", ""Frankfurt/Oder"", ""Frankfurt (Oder)"", ""Frankfurt_(Oder)""]","""https://de.wikipedia.org/wiki/Frankfurt_(Oder)""",52.34166667,58237
+10.07638889,"""Bad Kissingen""","[""Kissingen"", ""Bad Kissingen"", ""Bad_Kissingen""]","""https://de.wikipedia.org/wiki/Bad_Kissingen""",50.19944444,22245
+6.13527778,"""Kleve""","[""Cleve"", ""Kleef"", ""Kleff"", ""Kleve Kr. Kleve"", ""Kleve"", ""Kleve""]","""https://de.wikipedia.org/wiki/Kleve""",51.7875,51320
+7.13611111,"""Bergisch Gladbach""","[""Berg. Gladbach"", ""Bergisch Gladbach"", ""Bergisch_Gladbach""]","""https://de.wikipedia.org/wiki/Bergisch_Gladbach""",50.99166667,111627
+10.04416667,"""Senden (Bayern)""","[""Hittistetten"", ""Senden/Bayern"", ""Senden (Neu-Ulm)"", ""Senden"", ""Senden_(Bayern)""]","""https://de.wikipedia.org/wiki/Senden_(Bayern)""",48.32361111,22133
+8.30611111,"""Herborn""","[""Herborn"", ""Herborn""]","""https://de.wikipedia.org/wiki/Herborn""",50.6825,20688
+8.60472222,"""Salzkotten""","[""Salzkotten"", ""Salzkotten""]","""https://de.wikipedia.org/wiki/Salzkotten""",51.67083333,25159
+10.15444444,"""Heidenheim an der Brenz""","[""Heidenheim/Brenz"", ""Heidenheim an der Brenz"", ""Heidenheim_an_der_Brenz""]","""https://de.wikipedia.org/wiki/Heidenheim_an_der_Brenz""",48.67611111,49297
+6.5875,"""Grevenbroich""","[""Bundeshauptstadt der Energie"", ""Grevenbroich"", ""Grevenbroich""]","""https://de.wikipedia.org/wiki/Grevenbroich""",51.08833333,63204
+9.22455556,"""Neckarsulm""","[""Neckarsulm"", ""Neckarsulm""]","""https://de.wikipedia.org/wiki/Neckarsulm""",49.19169444,26428
+8.7375,"""Calw""","[""Heumaden"", ""Calw"", ""Calw""]","""https://de.wikipedia.org/wiki/Calw""",48.71444444,23491
+8.69708333,"""Neu-Isenburg""","[""Neu-Isenburg"", ""Neu-Isenburg""]","""https://de.wikipedia.org/wiki/Neu-Isenburg""",50.05576389,37512
+8.88416667,"""Rodgau""","[""Rodgau"", ""Rodgau""]","""https://de.wikipedia.org/wiki/Rodgau""",50.02555556,44725
+6.60055556,"""Rheinberg""","[""Rheinberg"", ""Rheinberg""]","""https://de.wikipedia.org/wiki/Rheinberg""",51.54666667,31195
+11.25555556,"""F\u00fcrstenfeldbruck""","[""Bruck"", ""F\u00fcrstenfeldbruck"", ""F%C3%BCrstenfeldbruck""]","""https://de.wikipedia.org/wiki/F%C3%BCrstenfeldbruck""",48.17777778,37202
+7.4,"""Papenburg""","[""Papenburg"", ""Papenburg""]","""https://de.wikipedia.org/wiki/Papenburg""",53.06666667,37030
+8.69611111,"""Dreieich""","[""Dreieich"", ""Dreieich""]","""https://de.wikipedia.org/wiki/Dreieich""",50.01888889,41548
+9.03194444,"""Albstadt""","[""Albstadt"", ""Albstadt""]","""https://de.wikipedia.org/wiki/Albstadt""",48.23055556,45023
+9.1922,"""Ludwigsburg""","[""Ludwigsburg"", ""Ludwigsburg""]","""https://de.wikipedia.org/wiki/Ludwigsburg""",48.8975,93593
+11.46201667,"""Wismar""","[""Hansestadt Wismar"", ""Wismar"", ""Wismar""]","""https://de.wikipedia.org/wiki/Wismar""",53.88821389,42906
+10.23416667,"""Schweinfurt""","[""Schweinfurt, St"", ""SW"", ""Schweinfurt"", ""Schweinfurt""]","""https://de.wikipedia.org/wiki/Schweinfurt""",50.045,53437
+9.59805556,"""Garbsen""","[""Garbsen"", ""Garbsen""]","""https://de.wikipedia.org/wiki/Garbsen""",52.41833333,60875
+9.28583333,"""Metzingen""","[""Glems"", ""Metzingen"", ""Metzingen""]","""https://de.wikipedia.org/wiki/Metzingen""",48.53666667,21845
+6.65305556,"""Mechernich""","[""Mechernich"", ""Mechernich""]","""https://de.wikipedia.org/wiki/Mechernich""",50.59138889,27350
+6.41861111,"""Kempen""","[""Kempen, Kreis Viersen"", ""Kempen, Viersen"", ""Kempen <Viersen>"", ""Kempen"", ""Kempen""]","""https://de.wikipedia.org/wiki/Kempen""",51.36444444,34711
+14.37944444,"""Spremberg""","[""Grodk"", ""Spremberg"", ""Spremberg""]","""https://de.wikipedia.org/wiki/Spremberg""",51.57166667,22456
+10.87777778,"""Landsberg am Lech""","[""Mittelstetten am Lech"", ""Landsberg"", ""Landsberg/Lech"", ""Landsberg (Lech)"", ""Landsberg a.Lech"", ""Landsberg am Lech"", ""Landsberg_am_Lech""]","""https://de.wikipedia.org/wiki/Landsberg_am_Lech""",48.04944444,28865
+9.31083333,"""Esslingen am Neckar""","[""Esslingen"", ""Esslingen/Neckar"", ""E\u00dflingen"", ""Esslingen am Neckar"", ""Esslingen_am_Neckar""]","""https://de.wikipedia.org/wiki/Esslingen_am_Neckar""",48.74055556,93004
+13.88138889,"""Strausberg""","[""Strausberg"", ""Strausberg""]","""https://de.wikipedia.org/wiki/Strausberg""",52.58083333,26522
+8.88138889,"""Nidderau""","[""Nidderau"", ""Nidderau""]","""https://de.wikipedia.org/wiki/Nidderau""",50.24305556,20120
+13.40833333,"""Berlin""","[""Berlin, Deutschland"", ""Bundeshauptstadt Berlin"", ""DE-BE"", ""Land Berlin"", ""Stadt Berlin"", ""Berlin"", ""Berlin""]","""https://de.wikipedia.org/wiki/Berlin""",52.51861111,3613495
+8.66972222,"""Weinheim""","[""Weinheim/Bergstra\u00dfe"", ""Weinheim"", ""Weinheim""]","""https://de.wikipedia.org/wiki/Weinheim""",49.55611111,45114
+11.73111111,"""Haar (bei M\u00fcnchen)""","[""Salmdorf"", ""Ottendichl"", ""Haar (M\u00fcnchen)"", ""Haar"", ""Haar_(bei_M%C3%BCnchen)""]","""https://de.wikipedia.org/wiki/Haar_(bei_M%C3%BCnchen)""",48.11138889,21000
+10.54472222,"""Gifhorn""","[""Gifhorn"", ""Gifhorn""]","""https://de.wikipedia.org/wiki/Gifhorn""",52.48194444,42239
+7.46388889,"""Dortmund""","[""Dortmund"", ""Dortmund""]","""https://de.wikipedia.org/wiki/Dortmund""",51.51416667,586600
+6.69611111,"""Kerpen""","[""Kerpen <Erftkreis>"", ""Kerpen"", ""Kerpen""]","""https://de.wikipedia.org/wiki/Kerpen""",50.87194444,65420
+9.70111111,"""Buxtehude""","[""Buxte"", ""Buxthu"", ""Buxtehude"", ""Buxtehude""]","""https://de.wikipedia.org/wiki/Buxtehude""",53.47694444,39782
+9.65277778,"""G\u00f6ppingen""","[""G\u00f6ppingen"", ""G%C3%B6ppingen""]","""https://de.wikipedia.org/wiki/G%C3%B6ppingen""",48.7025,57094
+7.38333333,"""Waltrop""","[""Waltrop"", ""Waltrop""]","""https://de.wikipedia.org/wiki/Waltrop""",51.61666667,29252
+9.31694444,"""Waiblingen""","[""Waiblingen"", ""Waiblingen""]","""https://de.wikipedia.org/wiki/Waiblingen""",48.83027778,55123
+12.09694444,"""Regensburg""","[""Regensburg, St"", ""Regensburg"", ""Regensburg""]","""https://de.wikipedia.org/wiki/Regensburg""",49.01722222,150894
+12.13333333,"""Rostock""","[""Hansestadt Rostock"", ""Rostock"", ""Rostock""]","""https://de.wikipedia.org/wiki/Rostock""",54.08333333,208409
+7.31194444,"""Idar-Oberstein""","[""Idar-Oberstein"", ""Idar-Oberstein""]","""https://de.wikipedia.org/wiki/Idar-Oberstein""",49.71333333,28357
+9.72361111,"""Ehingen (Donau)""","[""Ehingen an der Donau"", ""Ehingen"", ""Ehingen/Donau"", ""Ehingen"", ""Ehingen_(Donau)""]","""https://de.wikipedia.org/wiki/Ehingen_(Donau)""",48.28333333,25928
+7.79166667,"""Rheinfelden (Baden)""","[""Badisch Rheinfelden"", ""Badisch-Rhyf\u00e4lde"", ""Rheinfelden"", ""Rheinfelden/Baden"", ""Rheinfelden (Baden)"", ""Rheinfelden_(Baden)""]","""https://de.wikipedia.org/wiki/Rheinfelden_(Baden)""",47.56111111,32856
+11.3925,"""Gardelegen""","[""Hansestadt Gardelegen"", ""Gardelegen"", ""Gardelegen""]","""https://de.wikipedia.org/wiki/Gardelegen""",52.52638889,22614
+11.13333333,"""Weilheim in Oberbayern""","[""Weilheim i.OB"", ""Weilheim/Oberbayern"", ""Weilheim"", ""Weilheim (Oberbayern)"", ""Weilheim in Oberbayern"", ""Weilheim_in_Oberbayern""]","""https://de.wikipedia.org/wiki/Weilheim_in_Oberbayern""",47.83333333,22355
+8.69406667,"""Cuxhaven""","[""Cuxhaven"", ""Cuxhaven""]","""https://de.wikipedia.org/wiki/Cuxhaven""",53.8617,48470
+7.66138889,"""L\u00f6rrach""","[""L\u00f6rrach"", ""L%C3%B6rrach""]","""https://de.wikipedia.org/wiki/L%C3%B6rrach""",47.61555556,49213
+8.04305556,"""Osnabr\u00fcck""","[""Osnabr\u00fcck"", ""Osnabr%C3%BCck""]","""https://de.wikipedia.org/wiki/Osnabr%C3%BCck""",52.27888889,164374
+10.405849,"""Salzgitter""","[""Salzgitter"", ""Salzgitter""]","""https://de.wikipedia.org/wiki/Salzgitter""",52.153657,104548
+9.96416667,"""Sehnde""","[""Sehnde"", ""Sehnde""]","""https://de.wikipedia.org/wiki/Sehnde""",52.31611111,23505
+6.118779,"""\u00dcbach-Palenberg""","[""\u00dcbach-Palenberg"", ""%C3%9Cbach-Palenberg""]","""https://de.wikipedia.org/wiki/%C3%9Cbach-Palenberg""",50.919769,24083
+14.80722222,"""Zittau""","[""\u017ditawa"", ""Zittau"", ""Zittau""]","""https://de.wikipedia.org/wiki/Zittau""",50.89611111,25575
+13.06138889,"""Potsdam""","[""Potsdam"", ""Potsdam""]","""https://de.wikipedia.org/wiki/Potsdam""",52.39583333,175710
+9.68388889,"""Lindau (Bodensee)""","[""Lindau am Bodensee"", ""Lindau im Bodensee"", ""Lindau/Bodensee"", ""Lindau (Bodensee)"", ""Lindau"", ""Lindau_(Bodensee)""]","""https://de.wikipedia.org/wiki/Lindau_(Bodensee)""",47.54583333,25253
+8.75,"""Stuhr""","[""Stuhr"", ""Stuhr""]","""https://de.wikipedia.org/wiki/Stuhr""",53.01666667,33526
+8.84083333,"""Weyhe""","[""Weyhe"", ""Weyhe""]","""https://de.wikipedia.org/wiki/Weyhe""",52.99083333,30627
+11.58636111,"""Jena""","[""Jena"", ""Jena""]","""https://de.wikipedia.org/wiki/Jena""",50.92720556,111099
+9.21666667,"""Reutlingen""","[""Reutlingen"", ""Reutlingen""]","""https://de.wikipedia.org/wiki/Reutlingen""",48.48333333,115762
+8.57923611,"""Viernheim""","[""Viernheim"", ""Viernheim""]","""https://de.wikipedia.org/wiki/Viernheim""",49.53798611,33989
+9.70694444,"""Bad Hersfeld""","[""Bad Hersfeld"", ""Bad_Hersfeld""]","""https://de.wikipedia.org/wiki/Bad_Hersfeld""",50.86805556,29767
+13.23694444,"""Oranienburg""","[""Oranienburg"", ""Oranienburg""]","""https://de.wikipedia.org/wiki/Oranienburg""",52.75444444,43982
+6.31555556,"""Erkelenz""","[""Erkelenz"", ""Erkelenz""]","""https://de.wikipedia.org/wiki/Erkelenz""",51.08,43392
+14.42388889,"""Bautzen""","[""Budissin"", ""Budy\u0161in"", ""Bautzen"", ""Bautzen""]","""https://de.wikipedia.org/wiki/Bautzen""",51.18138889,39429
+8.54833333,"""Ganderkesee""","[""Ganderkesee"", ""Ganderkesee""]","""https://de.wikipedia.org/wiki/Ganderkesee""",53.03583333,31100
+8.10861111,"""Netphen""","[""Netphen"", ""Netphen""]","""https://de.wikipedia.org/wiki/Netphen""",50.91027778,23297
+9.89722222,"""Quickborn""","[""Quickborn"", ""Quickborn""]","""https://de.wikipedia.org/wiki/Quickborn""",53.73333333,21056
+6.85222222,"""Ratingen""","[""Ratingen"", ""Ratingen""]","""https://de.wikipedia.org/wiki/Ratingen""",51.29555556,87226
+9.45055556,"""Holzminden""","[""Holzminden"", ""Holzminden""]","""https://de.wikipedia.org/wiki/Holzminden""",51.82777778,20132
+10.79138889,"""Nordhausen""","[""Nordhausen, Harz"", ""Northausen"", ""Stadt Nordhausen"", ""Nordhausen am Harz"", ""Nordhusen"", ""Nordhausen"", ""Nordhausen""]","""https://de.wikipedia.org/wiki/Nordhausen""",51.50027778,42014
+10.56583333,"""Uelzen""","[""Hansestadt Uelzen"", ""Uelzen"", ""Uelzen""]","""https://de.wikipedia.org/wiki/Uelzen""",52.96472222,33673
+6.61444444,"""Kaarst""","[""Kaarst"", ""Kaarst""]","""https://de.wikipedia.org/wiki/Kaarst""",51.23166667,43216
+13.261,"""Neubrandenburg""","[""Neu-Brandenburg"", ""Stadt der Vier Tore"", ""Neubrandenburg"", ""Neubrandenburg""]","""https://de.wikipedia.org/wiki/Neubrandenburg""",53.557,64259
+11.29805556,"""Sangerhausen""","[""Sangerhausen"", ""Sangerhausen""]","""https://de.wikipedia.org/wiki/Sangerhausen""",51.47305556,26798
+7.84916667,"""Emmendingen""","[""Windenreute"", ""Wasser"", ""Emmendingen"", ""Emmendingen""]","""https://de.wikipedia.org/wiki/Emmendingen""",48.12138889,27642
+7.21694444,"""Bochum""","[""Bochum"", ""Bochum""]","""https://de.wikipedia.org/wiki/Bochum""",51.4825,365529
+8.06805556,"""Lennestadt""","[""Lennestadt"", ""Lennestadt""]","""https://de.wikipedia.org/wiki/Lennestadt""",51.12361111,25638
+6.23333333,"""Stolberg (Rheinland)""","[""Stolberg (Rheinland)"", ""Stolberg (Rhld.)"", ""Stolberg/Rheinland"", ""Stolberg"", ""Stolberg_(Rheinland)""]","""https://de.wikipedia.org/wiki/Stolberg_(Rheinland)""",50.76666667,56751
+11.10527778,"""Garmisch-Partenkirchen""","[""Partenkirchen"", ""Burgrain"", ""Garmisch"", ""Kochelberg"", ""Garmisch Partenkirchen"", ""Garmisch-Partenkirchen"", ""Garmisch-Partenkirchen""]","""https://de.wikipedia.org/wiki/Garmisch-Partenkirchen""",47.49388889,27024
+6.76269167,"""Duisburg""","[""Duisburg"", ""Duisburg""]","""https://de.wikipedia.org/wiki/Duisburg""",51.43514722,498110
+8.12305556,"""Landau in der Pfalz""","[""Landau"", ""Landau (Pfalz)"", ""Landau i. d. Pfalz"", ""Landau/Pfalz"", ""Landau in der Pfalz"", ""Landau_in_der_Pfalz""]","""https://de.wikipedia.org/wiki/Landau_in_der_Pfalz""",49.19944444,46292
+13.08972222,"""Stralsund""","[""Stralsund"", ""Stralsund""]","""https://de.wikipedia.org/wiki/Stralsund""",54.31388889,59517
+11.66666667,"""Neufahrn bei Freising""","[""Neufahrn"", ""Neufahrn (Freising)"", ""Neufahrn b. Freising"", ""Neufahrn b.Freising"", ""Neufahrn bei Freising"", ""Neufahrn_bei_Freising""]","""https://de.wikipedia.org/wiki/Neufahrn_bei_Freising""",48.31666667,20096
+7.33994444,"""Gevelsberg""","[""Gevelsberg"", ""Gevelsberg""]","""https://de.wikipedia.org/wiki/Gevelsberg""",51.32138889,30910
+9.83416667,"""Wangen im Allg\u00e4u""","[""Karsee"", ""Deuchelried"", ""Primisweiler"", ""Haslach"", ""Neuravensburg"", ""Neu-Ravensburg"", ""Schomburg"", ""Wangen"", ""Wangen/Allg\u00e4u"", ""Wangen im Allg\u00e4u"", ""Wangen_im_Allg%C3%A4u""]","""https://de.wikipedia.org/wiki/Wangen_im_Allg%C3%A4u""",47.68583333,27109
+8.50861111,"""Geseke""","[""Geseke"", ""Geseke""]","""https://de.wikipedia.org/wiki/Geseke""",51.63972222,21183
+8.43416667,"""Speyer""","[""Speyer"", ""Speyer""]","""https://de.wikipedia.org/wiki/Speyer""",49.31722222,50931
+8.67611111,"""Herford""","[""Hansestadt"", ""Herford"", ""Herford""]","""https://de.wikipedia.org/wiki/Herford""",52.11722222,66923
+11.46701,"""Karlsfeld""","[""Karlsfeld (Dachau)"", ""Karlsfeld"", ""Karlsfeld""]","""https://de.wikipedia.org/wiki/Karlsfeld""",48.227,21141
+11.46666667,"""Neumarkt in der Oberpfalz""","[""Neumarkt"", ""Neumarkt (Oberpfalz)"", ""Neumarkt i. d. OPf."", ""Neumarkt i.d.OPf."", ""Neumarkt/Oberpfalz"", ""Neumarkt in der Oberpfalz"", ""Neumarkt_in_der_Oberpfalz""]","""https://de.wikipedia.org/wiki/Neumarkt_in_der_Oberpfalz""",49.28333333,39822
+8.85055556,"""Balingen""","[""Balingen"", ""Balingen""]","""https://de.wikipedia.org/wiki/Balingen""",48.27305556,34062
+6.39333333,"""Viersen""","[""Viersen"", ""Viersen""]","""https://de.wikipedia.org/wiki/Viersen""",51.25277778,76586
+8.04027778,"""Beckum""","[""Beckum"", ""Beckum""]","""https://de.wikipedia.org/wiki/Beckum""",51.755,36689
+8.28361111,"""Meschede""","[""Meschede"", ""Meschede""]","""https://de.wikipedia.org/wiki/Meschede""",51.35027778,30086
+7.99333333,"""Warendorf""","[""Warendorf"", ""Warendorf""]","""https://de.wikipedia.org/wiki/Warendorf""",51.95388889,37242
+7.21,"""Lohmar""","[""Lohmar"", ""Lohmar""]","""https://de.wikipedia.org/wiki/Lohmar""",50.83944444,30451
+8.55554444,"""Enger""","[""Enger"", ""Enger""]","""https://de.wikipedia.org/wiki/Enger""",52.13855278,20520
+9.96027778,"""Kaltenkirchen""","[""Kaltenkirchen"", ""Kaltenkirchen""]","""https://de.wikipedia.org/wiki/Kaltenkirchen""",53.83972222,21386
+9.8,"""Schw\u00e4bisch Gm\u00fcnd""","[""Gm\u00fcnd"", ""Schw\u00e4bisch Gm\u00fcnd"", ""Schw%C3%A4bisch_Gm%C3%BCnd""]","""https://de.wikipedia.org/wiki/Schw%C3%A4bisch_Gm%C3%BCnd""",48.8,60914
+6.55833333,"""Neukirchen-Vluyn""","[""Neukirchen-Vluyn"", ""Neukirchen-Vluyn""]","""https://de.wikipedia.org/wiki/Neukirchen-Vluyn""",51.44166667,26990
+8.56666667,"""B\u00fcren (Westfalen)""","[""B\u00fcren (Westfalen)"", ""B\u00fcren"", ""B%C3%BCren_(Westfalen)""]","""https://de.wikipedia.org/wiki/B%C3%BCren_(Westfalen)""",51.55,21513
+7.51666667,"""L\u00fcnen""","[""L\u00fcnen"", ""L%C3%BCnen""]","""https://de.wikipedia.org/wiki/L%C3%BCnen""",51.61666667,86465
+9.74,"""Langenhagen""","[""Langenhagen"", ""Langenhagen""]","""https://de.wikipedia.org/wiki/Langenhagen""",52.43944444,53790
+12.38333333,"""Werdau""","[""Gro\u00dfe Kreisstadt Werdau"", ""Werdau"", ""Werdau""]","""https://de.wikipedia.org/wiki/Werdau""",50.73333333,20795
+6.85333333,"""V\u00f6lklingen""","[""V\u00f6lklingen"", ""V%C3%B6lklingen""]","""https://de.wikipedia.org/wiki/V%C3%B6lklingen""",49.25333333,39376
+11.07861111,"""N\u00fcrnberg""","[""Noris"", ""N\u00fcrnberg, St"", ""N\u00fcrnberg"", ""N%C3%BCrnberg""]","""https://de.wikipedia.org/wiki/N%C3%BCrnberg""",49.45555556,515201
+9.58333333,"""Walsrode""","[""Walsrode"", ""Walsrode""]","""https://de.wikipedia.org/wiki/Walsrode""",52.86666667,23089
+8.6,"""Bruchsal""","[""Bruchsal"", ""Bruchsal""]","""https://de.wikipedia.org/wiki/Bruchsal""",49.13333333,44532
+8.31944444,"""Gaggenau""","[""Gaggenau"", ""Gaggenau""]","""https://de.wikipedia.org/wiki/Gaggenau""",48.80388889,29615
+7.35858333,"""Radevormwald""","[""Radevormwald"", ""Radevormwald""]","""https://de.wikipedia.org/wiki/Radevormwald""",51.20391667,22428
+11.3275,"""Rudolstadt""","[""Rudolfestat"", ""Rudolstadt"", ""Rudolstadt""]","""https://de.wikipedia.org/wiki/Rudolstadt""",50.71694444,22560
+10.87222222,"""Sondershausen""","[""Berka/Wipper"", ""Sondershausen"", ""Sondershausen""]","""https://de.wikipedia.org/wiki/Sondershausen""",51.37083333,21768
+9.98361111,"""Norderstedt""","[""Norderstedt"", ""Norderstedt""]","""https://de.wikipedia.org/wiki/Norderstedt""",53.69555556,78679
+10.31586,"""Eisenach""","[""Eisenach"", ""Eisenach""]","""https://de.wikipedia.org/wiki/Eisenach""",50.98321,42710
+6.85833333,"""Borken""","[""Borken (Westf.)"", ""Borken, Kreis Borken"", ""Borken (Westfalen)"", ""Borken/Westfalen"", ""Borken"", ""Borken""]","""https://de.wikipedia.org/wiki/Borken""",51.84388889,42509
+12.96444444,"""Deggendorf""","[""Deggendorf"", ""Deggendorf""]","""https://de.wikipedia.org/wiki/Deggendorf""",48.83527778,33373
+8.48618056,"""Hattersheim am Main""","[""Hattersheim"", ""Hattersheim am Main"", ""Hattersheim_am_Main""]","""https://de.wikipedia.org/wiki/Hattersheim_am_Main""",50.06972222,27479
+10.78722222,"""Wolfsburg""","[""Stadt des KdF-Wagens bei Fallersleben"", ""WOB"", ""Wolfsburg"", ""Wolfsburg""]","""https://de.wikipedia.org/wiki/Wolfsburg""",52.42305556,123914
+10.91416667,"""Ilmenau""","[""Ilmtown"", ""Ilmenau"", ""Ilmenau""]","""https://de.wikipedia.org/wiki/Ilmenau""",50.68722222,25975

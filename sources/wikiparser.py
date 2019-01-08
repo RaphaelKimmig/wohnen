@@ -1,6 +1,8 @@
 from bs4 import BeautifulSoup
 import requests
 import json
+from ipywidgets import IntProgress
+from IPython.display import display
 
 api_props = {"coordinates": "coordinates", "alias": "pageterms"}
 api_prop_answer = {"pageterms": "terms"}
@@ -9,6 +11,7 @@ api_prop_answer = {"pageterms": "terms"}
 def get_cities(
     wikiurl=True, population=True, coordinates=True, alias=True, start=0, end=100000
 ):
+
     BASE_URL = "https://de.wikipedia.org"
     url = BASE_URL + "/wiki/Liste_der_Gro%C3%9F-_und_Mittelst%C3%A4dte_in_Deutschland"
 
@@ -28,8 +31,12 @@ def get_cities(
     if alias:
         api_params.append(api_props["alias"])
 
+    f = IntProgress(min=0, max=len(trs[start:end]) - 1)  # instantiate the bar
+    display(f)
+
     for tr in trs[start:end]:
         try:
+            f.value += 1
             tds = tr.find_all("td")
             city_name = tds[1].find("a").get("title")
             data = {}
